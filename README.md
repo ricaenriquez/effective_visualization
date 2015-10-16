@@ -19,10 +19,14 @@ percent plots for the given months and years. Additionally, seeing the total num
 flights in each category for the given data is given. The plots were arranged so that the
 tooltips did not get cutoff on the screen.
 
+I was able to figure out how to keep the bars for months and years the same size by 
+filtering the months chart only by year, and the years chart only by months.
+
 **********************
 Feedback
 **********************
-TBD
+There was an initial problem with filtering data because it was not filtering for both 
+months and years, just one type.
 
 **********************
 Resources
