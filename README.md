@@ -16,7 +16,8 @@ The main plot I wanted to show is the middle chart, which divides the flights by
 week and time of day. I thought a stacked and grouped bar chart would best show when the 
 best and worst times to fly in/out of MSP are. I also thought it would be nice to see 
 percent plots for the given months and years. Additionally, seeing the total number of 
-flights in each category for the given data is given.
+flights in each category for the given data is given. The plots were arranged so that the
+tooltips did not get cutoff on the screen.
 
 **********************
 Feedback
