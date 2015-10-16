@@ -73,7 +73,7 @@
 			.text(function (d) { return d; });                  
 
 		svg.selectAll("title_text")
-			.data(["**http://stat-computing.org/dataexpo/2009/the-data.html"])
+			.data(["**Data from http://stat-computing.org/dataexpo/2009/the-data.html"])
 			.enter()
 			.append("text")
 			.attr("x", 0)
@@ -202,12 +202,12 @@
 		var x4 = daysChart.addCategoryAxis("x", ["DayOfWeek", "TimeOfDay"]); 
 		x4.addOrderRule(["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]);
 		x4.addGroupOrderRule(["Morning", "Mid-Day", "Evening", "Night"]);
-		x4.title = "Day of Week / Time of Day";
+		x4.title = "Day of Week / Time of Day (Morning, Mid-Day, Evening, Night)";
 		x4.showGridlines = false;
 
 		var y4 = daysChart.addPctAxis("y", "NumberOfFlights");
 		y4.title = "Percent of Flights for Given Day of Week and Time of Day";   
-		y4.ticks = 1;       
+		y4.ticks = 4;       
 		y4.showGridlines = false;
 		var t4 = daysChart.addSeries("Status", dimple.plot.bar);                    		  
 		t4.addOrderRule(["On Time", "Short Delay", "Medium Delay", "Long Delay", "Cancelled"]);          	
