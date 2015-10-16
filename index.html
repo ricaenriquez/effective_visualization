@@ -4,202 +4,460 @@
     <meta charset="utf-8">
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
-	<link rel="stylesheet" href="css/main.css">
     <script type="text/javascript">
-      function draw(data) {
+    function draw(data) {
       
-      /*
-        D3.js setup code
-      */
+		/*
+		D3.js setup code
+		*/
+		"use strict";
+		var width = 800,
+		height = 500;
 
-          "use strict";
-          var margin = 75,
-              width = 800 - margin,
-              height = 600 - margin;
+		d3.select("body")
+			.append("h3")
+			.text("Minneapolis-St. Paul International Airport (MSP) Flight Status Data, 1988 - 2008")
+			.style("font-family", "sans-serif")
 
-          d3.select("body")
-            .append("h2")
-            .text("MSP Flight Data");
+		d3.select("body")
+			.append("h5")
+			.text("The following charts depict MSP flight status data from the US \
+			       Department of Transportation's Research and Innovative Technology \
+			       Administration (RITA-http://stat-computing.org/dataexpo/2009/the-data.html). \
+			       On-time, delayed, and cancelled flights conditions can be seen for \
+			       various time spans.")
+			.style("font-family", "sans-serif")
+			.style("font-weight", "lighter")
 
-          var svg = d3.select("body")
-            .append("svg")
-              .attr("width", width + margin)
-              .attr("height", height + margin)
-            .append('g')
-                .attr('class','chart');
+		var svg = d3.select("body")
+			.append("svg")
+			.attr("width", width)
+			.attr("height", height)
+			.append('g')
+			.attr('class','chart');
 
-      /*
-        Dimple.js Chart construction code
-      */
+		/*
+		Dimple.js Chart construction code
+		*/
 
-// Different animations for arriving/departing
-          // Filter for Arriving/Departing
-          data = dimple.filterData(data, "ArrDep", [
-              "Arriving", "Departing"]);
+		//////////////////////////////////////////////////////////////////////////////////
+		// General parameters
+		//////////////////////////////////////////////////////////////////////////////////
+		// Interactive bars are violet
+		var defaultColor = new dimple.color("#9966CC");
+		// The frame duration for the animation in milliseconds
+		var frame = 6000;
+		var pauseState = false;
+
+		// Descriptive text split into multiple lines  
+		svg.selectAll("title_text")
+			.data(["Select 'Arriving' or 'Departing' to pause. Re-click to resume animation.",
+				   "Filter data by years and months by selecting violet bars below.", 
+			  	   "Transparent bars filter out selected years or months."])
+			.enter()
+			.append("text")
+			.attr("x", 80)
+			.attr("y", function (d, i) { return 15 + i * 22; })
+			.style("font-family", "sans-serif")
+			.style("font-size", "15px")
+			.text(function (d) { return d; });                  
+
+		svg.selectAll("title_text")
+			.data(["*Short delay: < 5 min, Medium delay: < 30 min, Long delay: > 30 min"])
+			.enter()
+			.append("text")
+			.attr("x", 0)
+			.attr("y", 495)
+			.style("font-family", "sans-serif")
+			.style("font-size", "9px")
+			.text(function (d) { return d; });                  
+
+
+		// Main filter, splits into Arriving/Departing flights
+		data = dimple.filterData(data, "ArrDep", ["Arriving", "Departing"]);
                             
-          // Create the indicator chart on the right of the main chart
-          var indicator = new dimple.chart(svg, data);
+		//////////////////////////////////////////////////////////////////////////////////
+		// Create the main story indicator chart on top left
+		//////////////////////////////////////////////////////////////////////////////////
+		var indicator1 = new dimple.chart(svg, data);
+		indicator1.setBounds(0, 0, 70, 66);
+
+		// Add flight type along the y axis
+		var y1 = indicator1.addCategoryAxis("y", "ArrDep");
+		y1.addOrderRule(["Arriving", "Departing"], "false");          
           
-          // Pick blue as the default and orange for the selected option
-          var defaultColor = indicator.defaultColors[11];
-          var indicatorColor = indicator.defaultColors[3];
+		// Use number of flights for bar size and hide the axis
+		var x1 = indicator1.addPctAxis("x", "NumberOfFlights");
+		x1.hidden = true;
 
-          // The frame duration for the animation in milliseconds
-          var frame = 2000;
+		// Add the bars to the indicator, remove tooltip, and add event handlers
+		var s1 = indicator1.addSeries(null, dimple.plot.bar);
+		s1.getTooltipText = function (e) { };
+		s1.addEventHandler("click", onClick1);
 
-          // Place the indicator bar chart to the right
-          indicator.setBounds(600, 50, 75, 50);
+		// Draw the indicator bars
+		indicator1.draw();          
 
-          // Add flight type along the y axis
-          var y = indicator.addCategoryAxis("y", "ArrDep");
-          y.addOrderRule(["Arriving", "Departing"], "false");          
-          
-          // Use number of flights for bar size and hide the axis
-          var x = indicator.addPctAxis("x", "NumberOfFlights");
-          x.hidden = true;
-          
-          // Add the bars to the indicator and add event handlers
-          var s = indicator.addSeries(null, dimple.plot.bar);
-	      s.getTooltipText = function (e) { };
-          s.addEventHandler("click", onClick);
-          // Draw the side chart
-          indicator.draw();          
+        // Remove the title and lines from the y axis
+		y1.titleShape.remove();
+		y1.shapes.selectAll("line,path").remove();
 
-        // Remove the title from the y axis
-          y.titleShape.remove();
+		// Move the y axis text inside the plot area
+		y1.shapes.selectAll("text")
+				.style("text-anchor", "start")
+				.style("font-size", "14px")
+				.style("font-weight", "bold")
+				.attr("transform", "translate(11, 2)");
 
-          // Remove the lines from the y axis
-          y.shapes.selectAll("line,path").remove();
+		// Manually set the bar colors and opacity
+		s1.shapes
+			.style("fill", defaultColor.fill) 
+			.style("stroke", defaultColor.stroke) 
+			.style("opacity", 0.5);
+			
+		//////////////////////////////////////////////////////////////////////////////////
+		// Make the month chart on the top left
+		//////////////////////////////////////////////////////////////////////////////////
+		var monthsChart = new dimple.chart(svg, data);
+		monthsChart.setBounds(135, 80, 100, 280)
 
-          // Move the y axis text inside the plot area
-          y.shapes.selectAll("text")
-                  .style("text-anchor", "start")
-                  .style("font-size", "10px")
-                  .attr("transform", "translate(12, 0.5)");
+		var y2 = monthsChart.addCategoryAxis("y", ["Month"]); 
+		y2.addOrderRule(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", 
+						 "Oct", "Nov", "Dec"], "false");          
+		y2.title = ""
 
-          // This block simply adds the legend title. I put it into a d3 data
-          // object to split it onto 2 lines.  This technique works with any
-          // number of lines, it isn't dimple specific.
-          svg.selectAll("title_text")
-                  .data(["Click bar to select and pause.", 
-                  		 "Click again to resume animation."])
-                  .enter()
-                  .append("text")
-                  .attr("x", 600)
-                  .attr("y", function (d, i) { return 15 + i * 12; })
-                  .style("font-family", "sans-serif")
-                  .style("font-size", "12px")
-                  .style("color", "Black")
-                  .text(function (d) { return d; });
+		var x2 = monthsChart.addPctAxis("x", "NumberOfFlights");
+		x2.showGridlines = false;
+		x2.hidden = true;
 
-          // Manually set the bar colors
-          s.shapes
-                  .attr("rx", 10)
-                  .attr("ry", 10)
-                  .style("fill", function (d) { return (d.y === "Arriving" ? indicatorColor.fill : defaultColor.fill) })
-                  .style("stroke", function (d) { return (d.y === "Arriving" ? indicatorColor.stroke : defaultColor.stroke) })
-                  .style("opacity", 0.4);
-                                    		  
-		  // Make the main chart
-          var myChart = new dimple.chart(svg, data);
-          myChart.setBounds(margin, 10, 500, 375)
-          var x = myChart.addCategoryAxis("x", ["DayOfWeek", "TimeOfDay"]); 
-          x.addOrderRule(["Sun", "Mon", "Tues", "Wed", "Thurs",           
-          	"Fri", "Sat"]);
-		  x.addGroupOrderRule(["Morning", "Mid-Day", "Evening", "Night"]);
-          x.title = "Day of Week / Time of Day";
-          x.showGridlines = false;
-          var y = myChart.addPctAxis("y", "NumberOfFlights");
-          y.title = "Percent of Flights";          
-          y.showGridlines = false;
-          var t = myChart.addSeries("Status", dimple.plot.bar);                    		  
-  		  t.addOrderRule(["On Time", "Short Delay", "Medium Delay", "Long Delay", "Cancelled"]);          	
-          myChart.addLegend(0, height-margin, width, 20, "left");
+		var t2 = monthsChart.addSeries("Status", dimple.plot.bar);                    		  
+		t2.addOrderRule(["On Time", "Short Delay", "Medium Delay", "Long Delay", 
+						 "Cancelled"]);          	
 
-          // Add a storyboard to the main chart and set the tick event
-          var story = myChart.setStoryboard("ArrDep", onTick);
-          // Change the frame duration
-          story.frameDuration = frame;
-          // Order the storyboard by date
-          story.addOrderRule(["Arriving", "Departing"]);          
+		// Link storyboard to chart
+		var story1 = monthsChart.setStoryboard("ArrDep", onTick);
+		// Change the frame duration and order the storyboard by flight type
+		story1.frameDuration = frame;
+		story1.addOrderRule(["Arriving", "Departing"]);  
 
-          // Draw the chart
-          myChart.draw();
-          
-          // Orphan the legends as they are consistent but by default they
-          // will refresh on tick
-          myChart.legends = [];
-          // Remove the storyboard label because the chart will indicate the
-          // current month instead of the label
-          story.storyLabel.remove();
+		// Draw the chart and remove y-axis lines
+		monthsChart.draw();
+		y2.shapes.selectAll("line,path").remove();
 
-          // On click of the side chart
-          function onClick(e) {
-              // Pause the animation
-              story.pauseAnimation();
-              // If it is already selected resume the animation
-              // otherwise pause and move to the selected month
-              if (e.yValue === story.getFrameValue()) {
-                  story.startAnimation();
-              } else {
-                  story.goToFrame(e.yValue);
-                  story.pauseAnimation();
-              }
-          }
-          
+		// Remove the storyboard label because the chart will indicate the
+		// current flight instead of the label
+		monthsChart.legends = [];
+		story1.storyLabel.remove();
+		
+		//////////////////////////////////////////////////////////////////////////////////
+		// Make the year chart on the bottom left
+		//////////////////////////////////////////////////////////////////////////////////
+		var yearsChart = new dimple.chart(svg, data);
+		yearsChart.setBounds(135, 360, 100, 70)
+
+		var y3 = yearsChart.addCategoryAxis("y", ["Years"]); 
+		y3.title =""  
+		y3.addOrderRule(["1988-1994", "1995-2001", "2002-2008"]);
+
+		var x3 = yearsChart.addPctAxis("x", "NumberOfFlights");
+		x3.showGridlines = false;
+		x3.ticks = 1;
+		x3.title = "Percent of Flights within Timespan";
+
+		var t3 = yearsChart.addSeries("Status", dimple.plot.bar);                    		  
+		t3.addOrderRule(["On Time", "Short Delay", "Medium Delay", "Long Delay", 
+						 "Cancelled"]);          	
+
+		// Link storyboard to chart
+		var story2 = yearsChart.setStoryboard("ArrDep", onTick);
+
+		// Change the frame duration and order the storyboard by flight type
+		story2.frameDuration = frame;
+		story2.addOrderRule(["Arriving", "Departing"]);  
+
+		// Draw the chart and remove y-axis lines
+		yearsChart.draw();
+		y3.shapes.selectAll("line,path").remove();
+
+		// Remove the storyboard label because the chart will indicate the
+		// current flight instead of the label
+		yearsChart.legends = [];
+		story2.storyLabel.remove();
+
+		//////////////////////////////////////////////////////////////////////////////////
+ 	    // Make the middle chart for day of week and time of day
+		//////////////////////////////////////////////////////////////////////////////////
+		var daysChart = new dimple.chart(svg, data);
+		daysChart.setBounds(325, 80, 325, 350)          
+
+		var x4 = daysChart.addCategoryAxis("x", ["DayOfWeek", "TimeOfDay"]); 
+		x4.addOrderRule(["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]);
+		x4.addGroupOrderRule(["Morning", "Mid-Day", "Evening", "Night"]);
+		x4.title = "Day of Week / Time of Day";
+		x4.showGridlines = false;
+
+		var y4 = daysChart.addPctAxis("y", "NumberOfFlights");
+		y4.title = "Percent of Flights for Given Day of Week and Time of Day";   
+		y4.ticks = 1;       
+		y4.showGridlines = false;
+		var t4 = daysChart.addSeries("Status", dimple.plot.bar);                    		  
+		t4.addOrderRule(["On Time", "Short Delay", "Medium Delay", "Long Delay", "Cancelled"]);          	
+		daysChart.addLegend(628, 5, 250, 75, "left");
+
+		// Link storyboard to chart
+		var story3 = daysChart.setStoryboard("ArrDep", onTick);
+
+		// Change the frame duration and order the storyboard by flight type
+		story3.frameDuration = frame;
+		story3.addOrderRule(["Arriving", "Departing"]);  
+
+		// Draw the chart
+		daysChart.draw();
+
+		// Remove the storyboard label because the chart will indicate the
+		// current flight instead of the label
+		daysChart.legends = [];
+		story3.storyLabel.remove();
+
+		//////////////////////////////////////////////////////////////////////////////////
+		// Make the total chart
+		//////////////////////////////////////////////////////////////////////////////////
+		var totalChart = new dimple.chart(svg, data);
+		totalChart.setBounds(725, 80, 75, 350)
+
+		var x5 = totalChart.addCategoryAxis("x", ["Status"]); 
+		x5.title = "";       
+		x5.addOrderRule(["On Time", "Short Delay", "Medium Delay", "Long Delay", "Cancelled"]);          	
+		x5.ticks = 0;
+
+		var y5 = totalChart.addMeasureAxis("y", "NumberOfFlights");
+		y5.title = "Number of Flights in Current Dataset";
+		y5.showGridlines = false;
+		y5.overrideMax = 1800000;
+		y5.ticks = 3;       
+
+		var t5 = totalChart.addSeries("Status", dimple.plot.bar);                    		  
+		t5.addOrderRule(["On Time", "Short Delay", "Medium Delay", "Long Delay", "Cancelled"]);          	
+
+		// Link storyboard to chart
+		var story4 = totalChart.setStoryboard("ArrDep", onTick);
+
+		// Change the frame duration and order the storyboard by flight type
+		story4.frameDuration = frame;
+		story4.addOrderRule(["Arriving", "Departing"]);  
+
+		// Draw the chart
+		totalChart.draw();
+
+		// Remove the storyboard label because the chart will indicate the
+		// current flight instead of the label
+		totalChart.legends = [];
+		story4.storyLabel.remove();
+
+		//////////////////////////////////////////////////////////////////////////////////
+		// Make Month Indicators/Filters
+		//////////////////////////////////////////////////////////////////////////////////
+		var indicator6 = new dimple.chart(svg, data);     
+		var  monthFilter = dimple.getUniqueValues(data, "Month");     
+
+		// Place the indicator bar chart to the left
+		indicator6.setBounds(0, 80, 70, 280);
+
+		// Add month along the y axis
+		var y6 = indicator6.addCategoryAxis("y", "Month");
+		y6.addOrderRule(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", 
+						 "Oct", "Nov", "Dec"], "false");          
+
+		// Use number of flights for bar size and hide the axis
+		var x6 = indicator6.addPctAxis("x", "Month");
+		x6.hidden = true;
+
+		// Add the bars to the indicator, remove tooltip, and add event handlers
+		var s6 = indicator6.addSeries(null, dimple.plot.bar);
+		s6.getTooltipText = function (e) { };
+		s6.addEventHandler("click", onClick2);	      
+
+		// Draw the side chart
+		indicator6.draw();          
+
+        // Remove the title and lines from the y axis
+		y6.titleShape.remove();
+		y6.shapes.selectAll("line,path").remove();
+
+		// Move the y axis text inside the plot area
+		y6.shapes.selectAll("text")
+			.style("text-anchor", "start")
+			.style("font-size", "10px")
+			.style("font-weight", "bold")
+			.attr("transform", "translate(35, 0.5)");
+  
+		// Manually set the bar colors and opacity
+		s6.shapes
+			.style("fill", defaultColor.fill) 
+			.style("stroke", defaultColor.stroke) 
+			.style("opacity", 0.5);                  
+
+		//////////////////////////////////////////////////////////////////////////////////
+        // Make Year Indicators/Filters
+		//////////////////////////////////////////////////////////////////////////////////
+		var indicator7 = new dimple.chart(svg, data);     
+		var  yearFilter = dimple.getUniqueValues(data, "Years");     
+
+		// Place the indicator bar chart to the bottom left
+		indicator7.setBounds(0, 360, 70, 70);
+
+		// Add year along the y axis
+		var y7 = indicator7.addCategoryAxis("y", "Years");
+		y7.addOrderRule(["1988-1994", "1995-2001", "2002-2008"]);
+
+		// Use number of flights for bar size and hide the axis
+		var x7 = indicator7.addPctAxis("x", "NumberOfFlights");
+		x7.hidden = true;
+
+		// Add the bars to the indicator, remove tooltip, and add event handlers
+		var s7 = indicator7.addSeries(null, dimple.plot.bar);
+		s7.getTooltipText = function (e) { };
+		s7.addEventHandler("click", onClick3);	      
+
+		// Draw the side chart
+		indicator7.draw();          
+
+        // Remove the title and lines from the y axis
+		y7.titleShape.remove();
+		y7.shapes.selectAll("line,path").remove();
+
+		// Move the y axis text inside the plot area
+		y7.shapes.selectAll("text")
+			.style("text-anchor", "start")
+			.style("font-size", "11px")
+			.style("font-weight", "bold")
+			.attr("transform", "translate(18, 1)");
+
+		s7.shapes
+			.style("fill", defaultColor.fill) 
+			.style("stroke", defaultColor.stroke) 
+			.style("opacity", 0.5);                  
+
+		//////////////////////////////////////////////////////////////////////////////////
+		// Helper Functions for chart updates and animations
+		//////////////////////////////////////////////////////////////////////////////////
+
+		function updateCharts(newdata){
+			// Update data for each chart
+			daysChart.data = newdata;
+			monthsChart.data = newdata;
+			yearsChart.data = newdata;
+			totalChart.data = newdata;
+			// Redraw each chart
+			daysChart.draw();
+			monthsChart.draw();
+			yearsChart.draw()
+			totalChart.draw();          
+			// Remove vertical lines on months and years charts
+			y2.shapes.selectAll("line,path").remove();
+			y3.shapes.selectAll("line,path").remove();
+		}
+
+		function pauseCharts(){
+			story1.pauseAnimation();
+			story2.pauseAnimation();
+			story3.pauseAnimation();
+			story4.pauseAnimation();
+		}
+
+		function startCharts(){
+			story1.startAnimation();
+			story2.startAnimation();
+			story3.startAnimation();
+			story4.startAnimation();
+		}
+
           // On tick of the main charts storyboard
-          function onTick(e) {
-                  // Color all shapes the same
-			  s.shapes
-					  .transition()
-					  .duration(frame / 2)
-					  .style("fill", function (d) { return (d.y === e ? indicatorColor.fill : defaultColor.fill) })
-					  .style("stroke", function (d) { return (d.y === e ? indicatorColor.stroke : defaultColor.stroke) });
-          }
+		function onTick(e) {
+			// Color all shapes the same
+			s1.shapes
+				.transition()
+				.duration(frame / 5)
+				.style("opacity", function (d) { return (d.y === e ? 0.5: 0.1) })
+		}
+		
+		// On click of the side chart
+		function onClick1(e) {
+			// Pause the animation
+			pauseState = true;
+			pauseCharts();
+			// If it is already selected resume the animation
+			// otherwise pause and move to the selected month
+			if (e.yValue === story1.getFrameValue()) {
+				pauseState = false;
+				startCharts();
+			} else {
+				pauseState = true;
+				story1.goToFrame(e.yValue);
+				story2.goToFrame(e.yValue);
+				story3.goToFrame(e.yValue);
+				story4.goToFrame(e.yValue);
+				pauseCharts();
+			}
+		}
           
-// Make Month Filters
-          var indicator2 = new dimple.chart(svg, data);
-          
-          // Place the indicator bar chart to the right
-          indicator2.setBounds(600, 125, 25, 250);
-
-          // Add month along the y axis
-          var y2 = indicator2.addCategoryAxis("y", "Month");
-          y2.addOrderRule(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", 
-          	"Sept", "Oct", "Nov", "Dec"], "false");          
-          
-          // Use number of flights for bar size and hide the axis
-          var x2 = indicator2.addPctAxis("x", "NumberOfFlights");
-          x2.hidden = true;
-          
-          // Add the bars to the indicator
-          var s2 = indicator2.addSeries(null, dimple.plot.bar);
-	     // Manually set the bar colors for the year selectors
-	      s2.getTooltipText = function (e) { };
-//           s2.addEventHandler("click", onClick2);
-          // Draw the side chart
-          indicator2.draw();          
-
- 		  // Remove the title from the y axis
-		  y2.titleShape.remove();
-
-          // Remove the lines from the y axis
-          y2.shapes.selectAll("line,path").remove();
-
-          // Move the y axis text inside the plot area
-          y2.shapes.selectAll("text")
-                  .style("text-anchor", "start")
-                  .style("font-size", "10px")
-                  .attr("transform", "translate(12, 0.5)");
-                  
-	      s2.shapes
-          	.attr("rx", 10)
-			  .attr("ry", 10)
-			  .style("fill", indicatorColor.fill) 
-			  .style("stroke", indicatorColor.stroke) 
-			  .style("opacity", 0.4);                  
-                            
-	  };
+		function onClick2(e) {
+			// Pause the animation
+			pauseCharts();
+			var hide = false;
+			var newFilters = [];
+			var selobj = e.selectedShape[0];              
+			// If the filters contain the clicked shape hide it
+			monthFilter.forEach(function (f) {
+				if (f === e.yValue && selobj[0].style.opacity != 0.15) {
+					hide = true;
+				} else {
+					newFilters.push(f);
+				}
+			});
+			// Hide/show the bar
+			if (hide) {
+				d3.select(selobj[0]).style("opacity", 0.15);
+			} else {
+				newFilters.push(e.yValue);
+				d3.select(selobj[0]).style("opacity", 0.5) 
+			}                       
+			monthFilter = newFilters;
+			// Filter the data
+			updateCharts(dimple.filterData(data, "Month", monthFilter));
+			if (pauseState === true) {
+				pauseCharts();
+			}
+		}                            
+		function onClick3(e) {
+			pauseCharts();
+			var hide = false;
+			var newFilters = [];
+			var selobj = e.selectedShape[0];              
+			// If the filters contain the clicked shape hide it
+			yearFilter.forEach(function (f) {
+				if (f === e.yValue && selobj[0].style.opacity != 0.15) {
+					hide = true;
+				} else {
+					newFilters.push(f);
+				}
+			});
+			// Hide/show the bar
+			if (hide) {
+				d3.select(selobj[0]).style("opacity", 0.15);
+			} else {
+				newFilters.push(e.yValue);
+				d3.select(selobj[0]).style("opacity", 0.5) 
+			}                       
+			yearFilter = newFilters;
+			// Filter the data
+			var newData = dimple.filterData(data, "Years", yearFilter)
+			updateCharts(newData);
+			if (pauseState === true) {
+				pauseCharts();
+			}
+		}		
+	};
     </script>
   </head>
 <body>
