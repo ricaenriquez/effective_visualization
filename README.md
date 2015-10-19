@@ -48,6 +48,10 @@ The animations/filters were too fast for another user (after the change above), 
 decreased the frame rate.
 (Udacity Team meeting)
 
+There was a delay in the animation indicator and chart changes. I've sped up the animation
+indicator change to make it clearer.
+(Udacity Forum)
+
 **********************
 Resources
 **********************

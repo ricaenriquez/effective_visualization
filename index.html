@@ -237,8 +237,6 @@
 		var x5 = totalChart.addCategoryAxis('x', ['Status']); 
 		x5.addOrderRule(['On Time', 'Short Delay', 'Medium Delay', 'Long Delay', 
 		                 'Cancelled']);          	
-		x5.title = '';       
-		x5.ticks = 0;
 
 		var y5 = totalChart.addMeasureAxis('y', 'NumberOfFlights');
 		y5.title = 'Number of Flights in Current Dataset';
@@ -408,7 +406,7 @@
 			// Color all shapes the same
 			s1.shapes
 				.transition()
-				.duration(0)
+				.duration(FRAME/3)
 				.style('opacity', function (d) { return (d.y === e ? 0.5: 0.15) });
 		}
 		
