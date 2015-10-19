@@ -46,14 +46,14 @@
 		// Interactive bars are violet
 		var DEFAULT_COLOR = new dimple.color('#9966CC');
 		// The frame duration for the animation in milliseconds
-		var FRAME = 6000;
-		var pauseState = false;
+		var FRAME = 4500;
+		var pauseState = true;
 
 		// Descriptive text split into multiple lines  
 		svg.selectAll('title_text')
-			.data(['Select "Arriving" or "Departing" to pause. Re-click to resume \
-			        animation.', 'Filter data by years and months by selecting violet \
-			        bars below.', 'Transparent bars filter out selected years or months.'])
+			.data(['Select "Arriving" or "Departing" to start animation. Re-click to \
+					pause.', 'Filter out data by years and months by selecting violet \
+			        bars.', 'Transparent bars filter out selected years or months.'])
 			.enter()
 			.append('text')
 			.attr('x', 225)
@@ -171,7 +171,7 @@
 		var x3 = yearsChart.addPctAxis('x', 'NumberOfFlights');
 		x3.showGridlines = false;
 		x3.ticks = 1;
-		x3.title = 'Percent of Flights within Timespan';
+		x3.title = 'Percent of Flights within Time Span';
 
 		var t3 = yearsChart.addSeries('Status', dimple.plot.bar);                    		  
 		t3.addOrderRule(['On Time', 'Short Delay', 'Medium Delay', 'Long Delay', 
@@ -349,6 +349,9 @@
 			.style('stroke', DEFAULT_COLOR.stroke) 
 			.style('opacity', 0.5);                  
 
+		// 	Pause animations on start
+		pauseCharts();
+
 		//////////////////////////////////////////////////////////////////////////////////
 		// Helper Functions for chart updates and animations
 		//////////////////////////////////////////////////////////////////////////////////
@@ -403,18 +406,14 @@
 			// Color all shapes the same
 			s1.shapes
 				.transition()
-				.duration(FRAME / 5)
+				.duration(0)
 				.style('opacity', function (d) { return (d.y === e ? 0.5: 0.15) });
 		}
 		
 		// On click of the side chart
 		function onClick1(e) {
-			// Pause the animation
-			pauseState = true;
-			pauseCharts();
-			// If it is already selected resume the animation
-			// otherwise pause and move to the selected month
-			if (e.yValue === story1.getFrameValue()) {
+			// If it is already paused, animate it, otherwise, pause
+			if (pauseState == true) {
 				pauseState = false;
 				startCharts();
 			} else {
@@ -428,8 +427,6 @@
 		}
           
 		function onClick2(e) {
-			// Pause the animation
-			pauseCharts();
 			var hide = false;
 			var newFilters = [];
 			var selobj = e.selectedShape[0];              
@@ -458,7 +455,6 @@
 			}
 		}                            
 		function onClick3(e) {
-			pauseCharts();
 			var hide = false;
 			var newFilters = [];
 			var selobj = e.selectedShape[0];              
@@ -495,7 +491,7 @@
     Use D3 (not dimple.js) to load the TSV file
     and pass the contents of it to the draw function
     */
-  d3.tsv('data/MSP_dimple.tsv', draw);
+  d3.tsv('MSP_dimple.tsv', draw);
   </script>
 </body>
 </html>

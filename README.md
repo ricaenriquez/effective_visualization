@@ -29,7 +29,21 @@ filtering the months chart only by year, and the years chart only by months.
 Feedback
 **********************
 There was an initial problem with filtering data because it was not filtering for both 
-months and years, just one type.
+months and years, just one type. This led to inconsistencies in the months/years charts. 
+(in person demo)
+
+The wording of the main directions was clarified.
+I removed a pause after clicking the filtering bars since this led to a delay in the 
+	animation.
+The charts were paused at first, which allowed the user to start the animation.
+(facebook data analyst nd cohort group)
+
+The animations/filters were too slow for one user, so I increased the frame rate.
+(Udacity Team chat room)
+
+The animations/filters were too fast for another user (after the change above), so I 
+decreased the frame rate.
+(Udacity Team meeting)
 
 **********************
 Resources
