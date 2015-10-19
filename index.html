@@ -388,6 +388,7 @@
 		}
 
 		function pauseCharts(){
+			pauseState = true;
 			story1.pauseAnimation();
 			story2.pauseAnimation();
 			story3.pauseAnimation();
@@ -395,6 +396,7 @@
 		}
 
 		function startCharts(){
+			pauseState = false;
 			story1.startAnimation();
 			story2.startAnimation();
 			story3.startAnimation();
@@ -414,10 +416,8 @@
 		function onClick1(e) {
 			// If it is already paused, animate it, otherwise, pause
 			if (pauseState == true) {
-				pauseState = false;
 				startCharts();
 			} else {
-				pauseState = true;
 				story1.goToFrame(e.yValue);
 				story2.goToFrame(e.yValue);
 				story3.goToFrame(e.yValue);

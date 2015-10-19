@@ -25,6 +25,9 @@ on the screen.
 I was able to figure out how to keep the bars for months and years the same size by 
 filtering the months chart only by year, and the years chart only by months.
 
+The main feedback given was on the proper frame rate duration. The animation duration is
+now slightly shorter than it initially was.
+
 **********************
 Feedback
 **********************
