@@ -1,0 +1,1681 @@
+""	"Month"	"DayOfWeek"	"TimeOfDay"	"Status"	"NumberOfFlights"
+"1"	"Apr"	"Fri"	"Evening"	"Cancelled"	116
+"2"	"Apr"	"Fri"	"Evening"	"Long Delay"	955
+"3"	"Apr"	"Fri"	"Evening"	"Medium Delay"	1783
+"4"	"Apr"	"Fri"	"Evening"	"On Time"	6086
+"5"	"Apr"	"Fri"	"Evening"	"Short Delay"	988
+"6"	"Apr"	"Fri"	"Mid-Day"	"Cancelled"	114
+"7"	"Apr"	"Fri"	"Mid-Day"	"Long Delay"	708
+"8"	"Apr"	"Fri"	"Mid-Day"	"Medium Delay"	1666
+"9"	"Apr"	"Fri"	"Mid-Day"	"On Time"	7145
+"10"	"Apr"	"Fri"	"Mid-Day"	"Short Delay"	1124
+"11"	"Apr"	"Fri"	"Morning"	"Cancelled"	92
+"12"	"Apr"	"Fri"	"Morning"	"Long Delay"	267
+"13"	"Apr"	"Fri"	"Morning"	"Medium Delay"	615
+"14"	"Apr"	"Fri"	"Morning"	"On Time"	4027
+"15"	"Apr"	"Fri"	"Morning"	"Short Delay"	543
+"16"	"Apr"	"Fri"	"Night"	"Cancelled"	19
+"17"	"Apr"	"Fri"	"Night"	"Long Delay"	112
+"18"	"Apr"	"Fri"	"Night"	"Medium Delay"	179
+"19"	"Apr"	"Fri"	"Night"	"On Time"	594
+"20"	"Apr"	"Fri"	"Night"	"Short Delay"	76
+"21"	"Apr"	"Mon"	"Evening"	"Cancelled"	133
+"22"	"Apr"	"Mon"	"Evening"	"Long Delay"	991
+"23"	"Apr"	"Mon"	"Evening"	"Medium Delay"	1711
+"24"	"Apr"	"Mon"	"Evening"	"On Time"	6411
+"25"	"Apr"	"Mon"	"Evening"	"Short Delay"	953
+"26"	"Apr"	"Mon"	"Mid-Day"	"Cancelled"	165
+"27"	"Apr"	"Mon"	"Mid-Day"	"Long Delay"	874
+"28"	"Apr"	"Mon"	"Mid-Day"	"Medium Delay"	1714
+"29"	"Apr"	"Mon"	"Mid-Day"	"On Time"	7209
+"30"	"Apr"	"Mon"	"Mid-Day"	"Short Delay"	1061
+"31"	"Apr"	"Mon"	"Morning"	"Cancelled"	76
+"32"	"Apr"	"Mon"	"Morning"	"Long Delay"	286
+"33"	"Apr"	"Mon"	"Morning"	"Medium Delay"	717
+"34"	"Apr"	"Mon"	"Morning"	"On Time"	4048
+"35"	"Apr"	"Mon"	"Morning"	"Short Delay"	576
+"36"	"Apr"	"Mon"	"Night"	"Cancelled"	5
+"37"	"Apr"	"Mon"	"Night"	"Long Delay"	93
+"38"	"Apr"	"Mon"	"Night"	"Medium Delay"	185
+"39"	"Apr"	"Mon"	"Night"	"On Time"	625
+"40"	"Apr"	"Mon"	"Night"	"Short Delay"	108
+"41"	"Apr"	"Sat"	"Evening"	"Cancelled"	62
+"42"	"Apr"	"Sat"	"Evening"	"Long Delay"	597
+"43"	"Apr"	"Sat"	"Evening"	"Medium Delay"	1068
+"44"	"Apr"	"Sat"	"Evening"	"On Time"	5740
+"45"	"Apr"	"Sat"	"Evening"	"Short Delay"	642
+"46"	"Apr"	"Sat"	"Mid-Day"	"Cancelled"	89
+"47"	"Apr"	"Sat"	"Mid-Day"	"Long Delay"	631
+"48"	"Apr"	"Sat"	"Mid-Day"	"Medium Delay"	1281
+"49"	"Apr"	"Sat"	"Mid-Day"	"On Time"	6400
+"50"	"Apr"	"Sat"	"Mid-Day"	"Short Delay"	912
+"51"	"Apr"	"Sat"	"Morning"	"Cancelled"	78
+"52"	"Apr"	"Sat"	"Morning"	"Long Delay"	227
+"53"	"Apr"	"Sat"	"Morning"	"Medium Delay"	577
+"54"	"Apr"	"Sat"	"Morning"	"On Time"	3480
+"55"	"Apr"	"Sat"	"Morning"	"Short Delay"	433
+"56"	"Apr"	"Sat"	"Night"	"Cancelled"	8
+"57"	"Apr"	"Sat"	"Night"	"Long Delay"	49
+"58"	"Apr"	"Sat"	"Night"	"Medium Delay"	106
+"59"	"Apr"	"Sat"	"Night"	"On Time"	436
+"60"	"Apr"	"Sat"	"Night"	"Short Delay"	58
+"61"	"Apr"	"Sun"	"Evening"	"Cancelled"	156
+"62"	"Apr"	"Sun"	"Evening"	"Long Delay"	1267
+"63"	"Apr"	"Sun"	"Evening"	"Medium Delay"	1788
+"64"	"Apr"	"Sun"	"Evening"	"On Time"	5903
+"65"	"Apr"	"Sun"	"Evening"	"Short Delay"	918
+"66"	"Apr"	"Sun"	"Mid-Day"	"Cancelled"	74
+"67"	"Apr"	"Sun"	"Mid-Day"	"Long Delay"	704
+"68"	"Apr"	"Sun"	"Mid-Day"	"Medium Delay"	1679
+"69"	"Apr"	"Sun"	"Mid-Day"	"On Time"	7078
+"70"	"Apr"	"Sun"	"Mid-Day"	"Short Delay"	1000
+"71"	"Apr"	"Sun"	"Morning"	"Cancelled"	46
+"72"	"Apr"	"Sun"	"Morning"	"Long Delay"	176
+"73"	"Apr"	"Sun"	"Morning"	"Medium Delay"	510
+"74"	"Apr"	"Sun"	"Morning"	"On Time"	3498
+"75"	"Apr"	"Sun"	"Morning"	"Short Delay"	376
+"76"	"Apr"	"Sun"	"Night"	"Cancelled"	19
+"77"	"Apr"	"Sun"	"Night"	"Long Delay"	160
+"78"	"Apr"	"Sun"	"Night"	"Medium Delay"	194
+"79"	"Apr"	"Sun"	"Night"	"On Time"	577
+"80"	"Apr"	"Sun"	"Night"	"Short Delay"	90
+"81"	"Apr"	"Thurs"	"Evening"	"Cancelled"	141
+"82"	"Apr"	"Thurs"	"Evening"	"Long Delay"	1183
+"83"	"Apr"	"Thurs"	"Evening"	"Medium Delay"	1679
+"84"	"Apr"	"Thurs"	"Evening"	"On Time"	5606
+"85"	"Apr"	"Thurs"	"Evening"	"Short Delay"	1041
+"86"	"Apr"	"Thurs"	"Mid-Day"	"Cancelled"	116
+"87"	"Apr"	"Thurs"	"Mid-Day"	"Long Delay"	599
+"88"	"Apr"	"Thurs"	"Mid-Day"	"Medium Delay"	1709
+"89"	"Apr"	"Thurs"	"Mid-Day"	"On Time"	6894
+"90"	"Apr"	"Thurs"	"Mid-Day"	"Short Delay"	1122
+"91"	"Apr"	"Thurs"	"Morning"	"Cancelled"	55
+"92"	"Apr"	"Thurs"	"Morning"	"Long Delay"	225
+"93"	"Apr"	"Thurs"	"Morning"	"Medium Delay"	617
+"94"	"Apr"	"Thurs"	"Morning"	"On Time"	3961
+"95"	"Apr"	"Thurs"	"Morning"	"Short Delay"	523
+"96"	"Apr"	"Thurs"	"Night"	"Cancelled"	18
+"97"	"Apr"	"Thurs"	"Night"	"Long Delay"	132
+"98"	"Apr"	"Thurs"	"Night"	"Medium Delay"	167
+"99"	"Apr"	"Thurs"	"Night"	"On Time"	554
+"100"	"Apr"	"Thurs"	"Night"	"Short Delay"	80
+"101"	"Apr"	"Tues"	"Evening"	"Cancelled"	80
+"102"	"Apr"	"Tues"	"Evening"	"Long Delay"	865
+"103"	"Apr"	"Tues"	"Evening"	"Medium Delay"	1723
+"104"	"Apr"	"Tues"	"Evening"	"On Time"	6587
+"105"	"Apr"	"Tues"	"Evening"	"Short Delay"	908
+"106"	"Apr"	"Tues"	"Mid-Day"	"Cancelled"	120
+"107"	"Apr"	"Tues"	"Mid-Day"	"Long Delay"	657
+"108"	"Apr"	"Tues"	"Mid-Day"	"Medium Delay"	1664
+"109"	"Apr"	"Tues"	"Mid-Day"	"On Time"	7530
+"110"	"Apr"	"Tues"	"Mid-Day"	"Short Delay"	999
+"111"	"Apr"	"Tues"	"Morning"	"Cancelled"	70
+"112"	"Apr"	"Tues"	"Morning"	"Long Delay"	292
+"113"	"Apr"	"Tues"	"Morning"	"Medium Delay"	620
+"114"	"Apr"	"Tues"	"Morning"	"On Time"	4188
+"115"	"Apr"	"Tues"	"Morning"	"Short Delay"	468
+"116"	"Apr"	"Tues"	"Night"	"Cancelled"	9
+"117"	"Apr"	"Tues"	"Night"	"Long Delay"	87
+"118"	"Apr"	"Tues"	"Night"	"Medium Delay"	168
+"119"	"Apr"	"Tues"	"Night"	"On Time"	637
+"120"	"Apr"	"Tues"	"Night"	"Short Delay"	86
+"121"	"Apr"	"Wed"	"Evening"	"Cancelled"	117
+"122"	"Apr"	"Wed"	"Evening"	"Long Delay"	862
+"123"	"Apr"	"Wed"	"Evening"	"Medium Delay"	1688
+"124"	"Apr"	"Wed"	"Evening"	"On Time"	6220
+"125"	"Apr"	"Wed"	"Evening"	"Short Delay"	1001
+"126"	"Apr"	"Wed"	"Mid-Day"	"Cancelled"	151
+"127"	"Apr"	"Wed"	"Mid-Day"	"Long Delay"	633
+"128"	"Apr"	"Wed"	"Mid-Day"	"Medium Delay"	1566
+"129"	"Apr"	"Wed"	"Mid-Day"	"On Time"	7258
+"130"	"Apr"	"Wed"	"Mid-Day"	"Short Delay"	1077
+"131"	"Apr"	"Wed"	"Morning"	"Cancelled"	81
+"132"	"Apr"	"Wed"	"Morning"	"Long Delay"	236
+"133"	"Apr"	"Wed"	"Morning"	"Medium Delay"	592
+"134"	"Apr"	"Wed"	"Morning"	"On Time"	4097
+"135"	"Apr"	"Wed"	"Morning"	"Short Delay"	498
+"136"	"Apr"	"Wed"	"Night"	"Cancelled"	13
+"137"	"Apr"	"Wed"	"Night"	"Long Delay"	78
+"138"	"Apr"	"Wed"	"Night"	"Medium Delay"	139
+"139"	"Apr"	"Wed"	"Night"	"On Time"	679
+"140"	"Apr"	"Wed"	"Night"	"Short Delay"	65
+"141"	"Aug"	"Fri"	"Evening"	"Cancelled"	181
+"142"	"Aug"	"Fri"	"Evening"	"Long Delay"	1383
+"143"	"Aug"	"Fri"	"Evening"	"Medium Delay"	2019
+"144"	"Aug"	"Fri"	"Evening"	"On Time"	6545
+"145"	"Aug"	"Fri"	"Evening"	"Short Delay"	1091
+"146"	"Aug"	"Fri"	"Mid-Day"	"Cancelled"	192
+"147"	"Aug"	"Fri"	"Mid-Day"	"Long Delay"	1082
+"148"	"Aug"	"Fri"	"Mid-Day"	"Medium Delay"	2190
+"149"	"Aug"	"Fri"	"Mid-Day"	"On Time"	7395
+"150"	"Aug"	"Fri"	"Mid-Day"	"Short Delay"	1348
+"151"	"Aug"	"Fri"	"Morning"	"Cancelled"	106
+"152"	"Aug"	"Fri"	"Morning"	"Long Delay"	371
+"153"	"Aug"	"Fri"	"Morning"	"Medium Delay"	746
+"154"	"Aug"	"Fri"	"Morning"	"On Time"	4478
+"155"	"Aug"	"Fri"	"Morning"	"Short Delay"	586
+"156"	"Aug"	"Fri"	"Night"	"Cancelled"	34
+"157"	"Aug"	"Fri"	"Night"	"Long Delay"	178
+"158"	"Aug"	"Fri"	"Night"	"Medium Delay"	191
+"159"	"Aug"	"Fri"	"Night"	"On Time"	705
+"160"	"Aug"	"Fri"	"Night"	"Short Delay"	96
+"161"	"Aug"	"Mon"	"Evening"	"Cancelled"	179
+"162"	"Aug"	"Mon"	"Evening"	"Long Delay"	1601
+"163"	"Aug"	"Mon"	"Evening"	"Medium Delay"	2142
+"164"	"Aug"	"Mon"	"Evening"	"On Time"	5317
+"165"	"Aug"	"Mon"	"Evening"	"Short Delay"	1014
+"166"	"Aug"	"Mon"	"Mid-Day"	"Cancelled"	210
+"167"	"Aug"	"Mon"	"Mid-Day"	"Long Delay"	1373
+"168"	"Aug"	"Mon"	"Mid-Day"	"Medium Delay"	2096
+"169"	"Aug"	"Mon"	"Mid-Day"	"On Time"	6316
+"170"	"Aug"	"Mon"	"Mid-Day"	"Short Delay"	1246
+"171"	"Aug"	"Mon"	"Morning"	"Cancelled"	92
+"172"	"Aug"	"Mon"	"Morning"	"Long Delay"	484
+"173"	"Aug"	"Mon"	"Morning"	"Medium Delay"	826
+"174"	"Aug"	"Mon"	"Morning"	"On Time"	3767
+"175"	"Aug"	"Mon"	"Morning"	"Short Delay"	619
+"176"	"Aug"	"Mon"	"Night"	"Cancelled"	17
+"177"	"Aug"	"Mon"	"Night"	"Long Delay"	192
+"178"	"Aug"	"Mon"	"Night"	"Medium Delay"	198
+"179"	"Aug"	"Mon"	"Night"	"On Time"	593
+"180"	"Aug"	"Mon"	"Night"	"Short Delay"	98
+"181"	"Aug"	"Sat"	"Evening"	"Cancelled"	89
+"182"	"Aug"	"Sat"	"Evening"	"Long Delay"	1076
+"183"	"Aug"	"Sat"	"Evening"	"Medium Delay"	1514
+"184"	"Aug"	"Sat"	"Evening"	"On Time"	5540
+"185"	"Aug"	"Sat"	"Evening"	"Short Delay"	817
+"186"	"Aug"	"Sat"	"Mid-Day"	"Cancelled"	152
+"187"	"Aug"	"Sat"	"Mid-Day"	"Long Delay"	997
+"188"	"Aug"	"Sat"	"Mid-Day"	"Medium Delay"	2007
+"189"	"Aug"	"Sat"	"Mid-Day"	"On Time"	6421
+"190"	"Aug"	"Sat"	"Mid-Day"	"Short Delay"	1151
+"191"	"Aug"	"Sat"	"Morning"	"Cancelled"	91
+"192"	"Aug"	"Sat"	"Morning"	"Long Delay"	328
+"193"	"Aug"	"Sat"	"Morning"	"Medium Delay"	733
+"194"	"Aug"	"Sat"	"Morning"	"On Time"	3702
+"195"	"Aug"	"Sat"	"Morning"	"Short Delay"	521
+"196"	"Aug"	"Sat"	"Night"	"Cancelled"	11
+"197"	"Aug"	"Sat"	"Night"	"Long Delay"	120
+"198"	"Aug"	"Sat"	"Night"	"Medium Delay"	126
+"199"	"Aug"	"Sat"	"Night"	"On Time"	529
+"200"	"Aug"	"Sat"	"Night"	"Short Delay"	65
+"201"	"Aug"	"Sun"	"Evening"	"Cancelled"	150
+"202"	"Aug"	"Sun"	"Evening"	"Long Delay"	1346
+"203"	"Aug"	"Sun"	"Evening"	"Medium Delay"	1930
+"204"	"Aug"	"Sun"	"Evening"	"On Time"	5935
+"205"	"Aug"	"Sun"	"Evening"	"Short Delay"	1041
+"206"	"Aug"	"Sun"	"Mid-Day"	"Cancelled"	135
+"207"	"Aug"	"Sun"	"Mid-Day"	"Long Delay"	931
+"208"	"Aug"	"Sun"	"Mid-Day"	"Medium Delay"	1796
+"209"	"Aug"	"Sun"	"Mid-Day"	"On Time"	7066
+"210"	"Aug"	"Sun"	"Mid-Day"	"Short Delay"	1249
+"211"	"Aug"	"Sun"	"Morning"	"Cancelled"	72
+"212"	"Aug"	"Sun"	"Morning"	"Long Delay"	251
+"213"	"Aug"	"Sun"	"Morning"	"Medium Delay"	586
+"214"	"Aug"	"Sun"	"Morning"	"On Time"	3702
+"215"	"Aug"	"Sun"	"Morning"	"Short Delay"	453
+"216"	"Aug"	"Sun"	"Night"	"Cancelled"	13
+"217"	"Aug"	"Sun"	"Night"	"Long Delay"	171
+"218"	"Aug"	"Sun"	"Night"	"Medium Delay"	223
+"219"	"Aug"	"Sun"	"Night"	"On Time"	593
+"220"	"Aug"	"Sun"	"Night"	"Short Delay"	100
+"221"	"Aug"	"Thurs"	"Evening"	"Cancelled"	195
+"222"	"Aug"	"Thurs"	"Evening"	"Long Delay"	1595
+"223"	"Aug"	"Thurs"	"Evening"	"Medium Delay"	2266
+"224"	"Aug"	"Thurs"	"Evening"	"On Time"	5629
+"225"	"Aug"	"Thurs"	"Evening"	"Short Delay"	1227
+"226"	"Aug"	"Thurs"	"Mid-Day"	"Cancelled"	231
+"227"	"Aug"	"Thurs"	"Mid-Day"	"Long Delay"	1120
+"228"	"Aug"	"Thurs"	"Mid-Day"	"Medium Delay"	2242
+"229"	"Aug"	"Thurs"	"Mid-Day"	"On Time"	6932
+"230"	"Aug"	"Thurs"	"Mid-Day"	"Short Delay"	1332
+"231"	"Aug"	"Thurs"	"Morning"	"Cancelled"	98
+"232"	"Aug"	"Thurs"	"Morning"	"Long Delay"	363
+"233"	"Aug"	"Thurs"	"Morning"	"Medium Delay"	766
+"234"	"Aug"	"Thurs"	"Morning"	"On Time"	4259
+"235"	"Aug"	"Thurs"	"Morning"	"Short Delay"	617
+"236"	"Aug"	"Thurs"	"Night"	"Cancelled"	24
+"237"	"Aug"	"Thurs"	"Night"	"Long Delay"	200
+"238"	"Aug"	"Thurs"	"Night"	"Medium Delay"	250
+"239"	"Aug"	"Thurs"	"Night"	"On Time"	596
+"240"	"Aug"	"Thurs"	"Night"	"Short Delay"	119
+"241"	"Aug"	"Tues"	"Evening"	"Cancelled"	184
+"242"	"Aug"	"Tues"	"Evening"	"Long Delay"	1660
+"243"	"Aug"	"Tues"	"Evening"	"Medium Delay"	2026
+"244"	"Aug"	"Tues"	"Evening"	"On Time"	5580
+"245"	"Aug"	"Tues"	"Evening"	"Short Delay"	1041
+"246"	"Aug"	"Tues"	"Mid-Day"	"Cancelled"	219
+"247"	"Aug"	"Tues"	"Mid-Day"	"Long Delay"	1036
+"248"	"Aug"	"Tues"	"Mid-Day"	"Medium Delay"	1868
+"249"	"Aug"	"Tues"	"Mid-Day"	"On Time"	7045
+"250"	"Aug"	"Tues"	"Mid-Day"	"Short Delay"	1267
+"251"	"Aug"	"Tues"	"Morning"	"Cancelled"	68
+"252"	"Aug"	"Tues"	"Morning"	"Long Delay"	352
+"253"	"Aug"	"Tues"	"Morning"	"Medium Delay"	761
+"254"	"Aug"	"Tues"	"Morning"	"On Time"	4125
+"255"	"Aug"	"Tues"	"Morning"	"Short Delay"	550
+"256"	"Aug"	"Tues"	"Night"	"Cancelled"	17
+"257"	"Aug"	"Tues"	"Night"	"Long Delay"	176
+"258"	"Aug"	"Tues"	"Night"	"Medium Delay"	205
+"259"	"Aug"	"Tues"	"Night"	"On Time"	628
+"260"	"Aug"	"Tues"	"Night"	"Short Delay"	102
+"261"	"Aug"	"Wed"	"Evening"	"Cancelled"	139
+"262"	"Aug"	"Wed"	"Evening"	"Long Delay"	1503
+"263"	"Aug"	"Wed"	"Evening"	"Medium Delay"	2549
+"264"	"Aug"	"Wed"	"Evening"	"On Time"	5531
+"265"	"Aug"	"Wed"	"Evening"	"Short Delay"	1134
+"266"	"Aug"	"Wed"	"Mid-Day"	"Cancelled"	134
+"267"	"Aug"	"Wed"	"Mid-Day"	"Long Delay"	1134
+"268"	"Aug"	"Wed"	"Mid-Day"	"Medium Delay"	2416
+"269"	"Aug"	"Wed"	"Mid-Day"	"On Time"	6739
+"270"	"Aug"	"Wed"	"Mid-Day"	"Short Delay"	1352
+"271"	"Aug"	"Wed"	"Morning"	"Cancelled"	89
+"272"	"Aug"	"Wed"	"Morning"	"Long Delay"	462
+"273"	"Aug"	"Wed"	"Morning"	"Medium Delay"	879
+"274"	"Aug"	"Wed"	"Morning"	"On Time"	4051
+"275"	"Aug"	"Wed"	"Morning"	"Short Delay"	581
+"276"	"Aug"	"Wed"	"Night"	"Cancelled"	17
+"277"	"Aug"	"Wed"	"Night"	"Long Delay"	187
+"278"	"Aug"	"Wed"	"Night"	"Medium Delay"	236
+"279"	"Aug"	"Wed"	"Night"	"On Time"	636
+"280"	"Aug"	"Wed"	"Night"	"Short Delay"	110
+"281"	"Dec"	"Fri"	"Evening"	"Cancelled"	199
+"282"	"Dec"	"Fri"	"Evening"	"Long Delay"	1693
+"283"	"Dec"	"Fri"	"Evening"	"Medium Delay"	2632
+"284"	"Dec"	"Fri"	"Evening"	"On Time"	4128
+"285"	"Dec"	"Fri"	"Evening"	"Short Delay"	1069
+"286"	"Dec"	"Fri"	"Mid-Day"	"Cancelled"	219
+"287"	"Dec"	"Fri"	"Mid-Day"	"Long Delay"	1476
+"288"	"Dec"	"Fri"	"Mid-Day"	"Medium Delay"	2691
+"289"	"Dec"	"Fri"	"Mid-Day"	"On Time"	4969
+"290"	"Dec"	"Fri"	"Mid-Day"	"Short Delay"	1298
+"291"	"Dec"	"Fri"	"Morning"	"Cancelled"	114
+"292"	"Dec"	"Fri"	"Morning"	"Long Delay"	478
+"293"	"Dec"	"Fri"	"Morning"	"Medium Delay"	1204
+"294"	"Dec"	"Fri"	"Morning"	"On Time"	2801
+"295"	"Dec"	"Fri"	"Morning"	"Short Delay"	644
+"296"	"Dec"	"Fri"	"Night"	"Cancelled"	31
+"297"	"Dec"	"Fri"	"Night"	"Long Delay"	149
+"298"	"Dec"	"Fri"	"Night"	"Medium Delay"	208
+"299"	"Dec"	"Fri"	"Night"	"On Time"	384
+"300"	"Dec"	"Fri"	"Night"	"Short Delay"	69
+"301"	"Dec"	"Mon"	"Evening"	"Cancelled"	206
+"302"	"Dec"	"Mon"	"Evening"	"Long Delay"	1597
+"303"	"Dec"	"Mon"	"Evening"	"Medium Delay"	2529
+"304"	"Dec"	"Mon"	"Evening"	"On Time"	4845
+"305"	"Dec"	"Mon"	"Evening"	"Short Delay"	1038
+"306"	"Dec"	"Mon"	"Mid-Day"	"Cancelled"	193
+"307"	"Dec"	"Mon"	"Mid-Day"	"Long Delay"	1395
+"308"	"Dec"	"Mon"	"Mid-Day"	"Medium Delay"	2689
+"309"	"Dec"	"Mon"	"Mid-Day"	"On Time"	5730
+"310"	"Dec"	"Mon"	"Mid-Day"	"Short Delay"	1308
+"311"	"Dec"	"Mon"	"Morning"	"Cancelled"	92
+"312"	"Dec"	"Mon"	"Morning"	"Long Delay"	549
+"313"	"Dec"	"Mon"	"Morning"	"Medium Delay"	1125
+"314"	"Dec"	"Mon"	"Morning"	"On Time"	3061
+"315"	"Dec"	"Mon"	"Morning"	"Short Delay"	681
+"316"	"Dec"	"Mon"	"Night"	"Cancelled"	17
+"317"	"Dec"	"Mon"	"Night"	"Long Delay"	121
+"318"	"Dec"	"Mon"	"Night"	"Medium Delay"	193
+"319"	"Dec"	"Mon"	"Night"	"On Time"	434
+"320"	"Dec"	"Mon"	"Night"	"Short Delay"	92
+"321"	"Dec"	"Sat"	"Evening"	"Cancelled"	157
+"322"	"Dec"	"Sat"	"Evening"	"Long Delay"	1156
+"323"	"Dec"	"Sat"	"Evening"	"Medium Delay"	1696
+"324"	"Dec"	"Sat"	"Evening"	"On Time"	4106
+"325"	"Dec"	"Sat"	"Evening"	"Short Delay"	770
+"326"	"Dec"	"Sat"	"Mid-Day"	"Cancelled"	205
+"327"	"Dec"	"Sat"	"Mid-Day"	"Long Delay"	1210
+"328"	"Dec"	"Sat"	"Mid-Day"	"Medium Delay"	2353
+"329"	"Dec"	"Sat"	"Mid-Day"	"On Time"	5038
+"330"	"Dec"	"Sat"	"Mid-Day"	"Short Delay"	1111
+"331"	"Dec"	"Sat"	"Morning"	"Cancelled"	95
+"332"	"Dec"	"Sat"	"Morning"	"Long Delay"	363
+"333"	"Dec"	"Sat"	"Morning"	"Medium Delay"	1023
+"334"	"Dec"	"Sat"	"Morning"	"On Time"	2660
+"335"	"Dec"	"Sat"	"Morning"	"Short Delay"	588
+"336"	"Dec"	"Sat"	"Night"	"Cancelled"	2
+"337"	"Dec"	"Sat"	"Night"	"Long Delay"	66
+"338"	"Dec"	"Sat"	"Night"	"Medium Delay"	106
+"339"	"Dec"	"Sat"	"Night"	"On Time"	300
+"340"	"Dec"	"Sat"	"Night"	"Short Delay"	42
+"341"	"Dec"	"Sun"	"Evening"	"Cancelled"	191
+"342"	"Dec"	"Sun"	"Evening"	"Long Delay"	1582
+"343"	"Dec"	"Sun"	"Evening"	"Medium Delay"	2238
+"344"	"Dec"	"Sun"	"Evening"	"On Time"	4812
+"345"	"Dec"	"Sun"	"Evening"	"Short Delay"	1071
+"346"	"Dec"	"Sun"	"Mid-Day"	"Cancelled"	220
+"347"	"Dec"	"Sun"	"Mid-Day"	"Long Delay"	1255
+"348"	"Dec"	"Sun"	"Mid-Day"	"Medium Delay"	2246
+"349"	"Dec"	"Sun"	"Mid-Day"	"On Time"	5682
+"350"	"Dec"	"Sun"	"Mid-Day"	"Short Delay"	1129
+"351"	"Dec"	"Sun"	"Morning"	"Cancelled"	67
+"352"	"Dec"	"Sun"	"Morning"	"Long Delay"	380
+"353"	"Dec"	"Sun"	"Morning"	"Medium Delay"	832
+"354"	"Dec"	"Sun"	"Morning"	"On Time"	2662
+"355"	"Dec"	"Sun"	"Morning"	"Short Delay"	441
+"356"	"Dec"	"Sun"	"Night"	"Cancelled"	17
+"357"	"Dec"	"Sun"	"Night"	"Long Delay"	136
+"358"	"Dec"	"Sun"	"Night"	"Medium Delay"	180
+"359"	"Dec"	"Sun"	"Night"	"On Time"	434
+"360"	"Dec"	"Sun"	"Night"	"Short Delay"	75
+"361"	"Dec"	"Thurs"	"Evening"	"Cancelled"	169
+"362"	"Dec"	"Thurs"	"Evening"	"Long Delay"	1640
+"363"	"Dec"	"Thurs"	"Evening"	"Medium Delay"	2538
+"364"	"Dec"	"Thurs"	"Evening"	"On Time"	4102
+"365"	"Dec"	"Thurs"	"Evening"	"Short Delay"	1056
+"366"	"Dec"	"Thurs"	"Mid-Day"	"Cancelled"	189
+"367"	"Dec"	"Thurs"	"Mid-Day"	"Long Delay"	1217
+"368"	"Dec"	"Thurs"	"Mid-Day"	"Medium Delay"	2626
+"369"	"Dec"	"Thurs"	"Mid-Day"	"On Time"	5056
+"370"	"Dec"	"Thurs"	"Mid-Day"	"Short Delay"	1276
+"371"	"Dec"	"Thurs"	"Morning"	"Cancelled"	84
+"372"	"Dec"	"Thurs"	"Morning"	"Long Delay"	410
+"373"	"Dec"	"Thurs"	"Morning"	"Medium Delay"	1053
+"374"	"Dec"	"Thurs"	"Morning"	"On Time"	2903
+"375"	"Dec"	"Thurs"	"Morning"	"Short Delay"	603
+"376"	"Dec"	"Thurs"	"Night"	"Cancelled"	25
+"377"	"Dec"	"Thurs"	"Night"	"Long Delay"	149
+"378"	"Dec"	"Thurs"	"Night"	"Medium Delay"	206
+"379"	"Dec"	"Thurs"	"Night"	"On Time"	377
+"380"	"Dec"	"Thurs"	"Night"	"Short Delay"	64
+"381"	"Dec"	"Tues"	"Evening"	"Cancelled"	148
+"382"	"Dec"	"Tues"	"Evening"	"Long Delay"	1614
+"383"	"Dec"	"Tues"	"Evening"	"Medium Delay"	2344
+"384"	"Dec"	"Tues"	"Evening"	"On Time"	4526
+"385"	"Dec"	"Tues"	"Evening"	"Short Delay"	984
+"386"	"Dec"	"Tues"	"Mid-Day"	"Cancelled"	179
+"387"	"Dec"	"Tues"	"Mid-Day"	"Long Delay"	1121
+"388"	"Dec"	"Tues"	"Mid-Day"	"Medium Delay"	2325
+"389"	"Dec"	"Tues"	"Mid-Day"	"On Time"	5702
+"390"	"Dec"	"Tues"	"Mid-Day"	"Short Delay"	1238
+"391"	"Dec"	"Tues"	"Morning"	"Cancelled"	99
+"392"	"Dec"	"Tues"	"Morning"	"Long Delay"	377
+"393"	"Dec"	"Tues"	"Morning"	"Medium Delay"	1074
+"394"	"Dec"	"Tues"	"Morning"	"On Time"	2965
+"395"	"Dec"	"Tues"	"Morning"	"Short Delay"	609
+"396"	"Dec"	"Tues"	"Night"	"Cancelled"	11
+"397"	"Dec"	"Tues"	"Night"	"Long Delay"	126
+"398"	"Dec"	"Tues"	"Night"	"Medium Delay"	196
+"399"	"Dec"	"Tues"	"Night"	"On Time"	396
+"400"	"Dec"	"Tues"	"Night"	"Short Delay"	72
+"401"	"Dec"	"Wed"	"Evening"	"Cancelled"	150
+"402"	"Dec"	"Wed"	"Evening"	"Long Delay"	1285
+"403"	"Dec"	"Wed"	"Evening"	"Medium Delay"	2461
+"404"	"Dec"	"Wed"	"Evening"	"On Time"	4692
+"405"	"Dec"	"Wed"	"Evening"	"Short Delay"	1038
+"406"	"Dec"	"Wed"	"Mid-Day"	"Cancelled"	168
+"407"	"Dec"	"Wed"	"Mid-Day"	"Long Delay"	1288
+"408"	"Dec"	"Wed"	"Mid-Day"	"Medium Delay"	2553
+"409"	"Dec"	"Wed"	"Mid-Day"	"On Time"	5336
+"410"	"Dec"	"Wed"	"Mid-Day"	"Short Delay"	1262
+"411"	"Dec"	"Wed"	"Morning"	"Cancelled"	95
+"412"	"Dec"	"Wed"	"Morning"	"Long Delay"	414
+"413"	"Dec"	"Wed"	"Morning"	"Medium Delay"	1098
+"414"	"Dec"	"Wed"	"Morning"	"On Time"	2891
+"415"	"Dec"	"Wed"	"Morning"	"Short Delay"	641
+"416"	"Dec"	"Wed"	"Night"	"Cancelled"	15
+"417"	"Dec"	"Wed"	"Night"	"Long Delay"	110
+"418"	"Dec"	"Wed"	"Night"	"Medium Delay"	151
+"419"	"Dec"	"Wed"	"Night"	"On Time"	454
+"420"	"Dec"	"Wed"	"Night"	"Short Delay"	70
+"421"	"Feb"	"Fri"	"Evening"	"Cancelled"	144
+"422"	"Feb"	"Fri"	"Evening"	"Long Delay"	1184
+"423"	"Feb"	"Fri"	"Evening"	"Medium Delay"	2319
+"424"	"Feb"	"Fri"	"Evening"	"On Time"	4969
+"425"	"Feb"	"Fri"	"Evening"	"Short Delay"	1098
+"426"	"Feb"	"Fri"	"Mid-Day"	"Cancelled"	211
+"427"	"Feb"	"Fri"	"Mid-Day"	"Long Delay"	969
+"428"	"Feb"	"Fri"	"Mid-Day"	"Medium Delay"	2158
+"429"	"Feb"	"Fri"	"Mid-Day"	"On Time"	5854
+"430"	"Feb"	"Fri"	"Mid-Day"	"Short Delay"	1272
+"431"	"Feb"	"Fri"	"Morning"	"Cancelled"	141
+"432"	"Feb"	"Fri"	"Morning"	"Long Delay"	431
+"433"	"Feb"	"Fri"	"Morning"	"Medium Delay"	982
+"434"	"Feb"	"Fri"	"Morning"	"On Time"	3125
+"435"	"Feb"	"Fri"	"Morning"	"Short Delay"	632
+"436"	"Feb"	"Fri"	"Night"	"Cancelled"	23
+"437"	"Feb"	"Fri"	"Night"	"Long Delay"	112
+"438"	"Feb"	"Fri"	"Night"	"Medium Delay"	214
+"439"	"Feb"	"Fri"	"Night"	"On Time"	456
+"440"	"Feb"	"Fri"	"Night"	"Short Delay"	90
+"441"	"Feb"	"Mon"	"Evening"	"Cancelled"	279
+"442"	"Feb"	"Mon"	"Evening"	"Long Delay"	1195
+"443"	"Feb"	"Mon"	"Evening"	"Medium Delay"	1845
+"444"	"Feb"	"Mon"	"Evening"	"On Time"	5151
+"445"	"Feb"	"Mon"	"Evening"	"Short Delay"	882
+"446"	"Feb"	"Mon"	"Mid-Day"	"Cancelled"	347
+"447"	"Feb"	"Mon"	"Mid-Day"	"Long Delay"	1107
+"448"	"Feb"	"Mon"	"Mid-Day"	"Medium Delay"	2032
+"449"	"Feb"	"Mon"	"Mid-Day"	"On Time"	5578
+"450"	"Feb"	"Mon"	"Mid-Day"	"Short Delay"	1043
+"451"	"Feb"	"Mon"	"Morning"	"Cancelled"	132
+"452"	"Feb"	"Mon"	"Morning"	"Long Delay"	436
+"453"	"Feb"	"Mon"	"Morning"	"Medium Delay"	875
+"454"	"Feb"	"Mon"	"Morning"	"On Time"	3076
+"455"	"Feb"	"Mon"	"Morning"	"Short Delay"	580
+"456"	"Feb"	"Mon"	"Night"	"Cancelled"	24
+"457"	"Feb"	"Mon"	"Night"	"Long Delay"	130
+"458"	"Feb"	"Mon"	"Night"	"Medium Delay"	149
+"459"	"Feb"	"Mon"	"Night"	"On Time"	477
+"460"	"Feb"	"Mon"	"Night"	"Short Delay"	83
+"461"	"Feb"	"Sat"	"Evening"	"Cancelled"	212
+"462"	"Feb"	"Sat"	"Evening"	"Long Delay"	795
+"463"	"Feb"	"Sat"	"Evening"	"Medium Delay"	1205
+"464"	"Feb"	"Sat"	"Evening"	"On Time"	4682
+"465"	"Feb"	"Sat"	"Evening"	"Short Delay"	666
+"466"	"Feb"	"Sat"	"Mid-Day"	"Cancelled"	200
+"467"	"Feb"	"Sat"	"Mid-Day"	"Long Delay"	791
+"468"	"Feb"	"Sat"	"Mid-Day"	"Medium Delay"	1663
+"469"	"Feb"	"Sat"	"Mid-Day"	"On Time"	5142
+"470"	"Feb"	"Sat"	"Mid-Day"	"Short Delay"	960
+"471"	"Feb"	"Sat"	"Morning"	"Cancelled"	104
+"472"	"Feb"	"Sat"	"Morning"	"Long Delay"	384
+"473"	"Feb"	"Sat"	"Morning"	"Medium Delay"	875
+"474"	"Feb"	"Sat"	"Morning"	"On Time"	2584
+"475"	"Feb"	"Sat"	"Morning"	"Short Delay"	549
+"476"	"Feb"	"Sat"	"Night"	"Cancelled"	26
+"477"	"Feb"	"Sat"	"Night"	"Long Delay"	72
+"478"	"Feb"	"Sat"	"Night"	"Medium Delay"	95
+"479"	"Feb"	"Sat"	"Night"	"On Time"	369
+"480"	"Feb"	"Sat"	"Night"	"Short Delay"	53
+"481"	"Feb"	"Sun"	"Evening"	"Cancelled"	252
+"482"	"Feb"	"Sun"	"Evening"	"Long Delay"	1484
+"483"	"Feb"	"Sun"	"Evening"	"Medium Delay"	2117
+"484"	"Feb"	"Sun"	"Evening"	"On Time"	4744
+"485"	"Feb"	"Sun"	"Evening"	"Short Delay"	952
+"486"	"Feb"	"Sun"	"Mid-Day"	"Cancelled"	299
+"487"	"Feb"	"Sun"	"Mid-Day"	"Long Delay"	1032
+"488"	"Feb"	"Sun"	"Mid-Day"	"Medium Delay"	1943
+"489"	"Feb"	"Sun"	"Mid-Day"	"On Time"	5587
+"490"	"Feb"	"Sun"	"Mid-Day"	"Short Delay"	1069
+"491"	"Feb"	"Sun"	"Morning"	"Cancelled"	156
+"492"	"Feb"	"Sun"	"Morning"	"Long Delay"	337
+"493"	"Feb"	"Sun"	"Morning"	"Medium Delay"	650
+"494"	"Feb"	"Sun"	"Morning"	"On Time"	2620
+"495"	"Feb"	"Sun"	"Morning"	"Short Delay"	411
+"496"	"Feb"	"Sun"	"Night"	"Cancelled"	22
+"497"	"Feb"	"Sun"	"Night"	"Long Delay"	134
+"498"	"Feb"	"Sun"	"Night"	"Medium Delay"	188
+"499"	"Feb"	"Sun"	"Night"	"On Time"	468
+"500"	"Feb"	"Sun"	"Night"	"Short Delay"	66
+"501"	"Feb"	"Thurs"	"Evening"	"Cancelled"	187
+"502"	"Feb"	"Thurs"	"Evening"	"Long Delay"	1258
+"503"	"Feb"	"Thurs"	"Evening"	"Medium Delay"	2123
+"504"	"Feb"	"Thurs"	"Evening"	"On Time"	4772
+"505"	"Feb"	"Thurs"	"Evening"	"Short Delay"	1106
+"506"	"Feb"	"Thurs"	"Mid-Day"	"Cancelled"	147
+"507"	"Feb"	"Thurs"	"Mid-Day"	"Long Delay"	826
+"508"	"Feb"	"Thurs"	"Mid-Day"	"Medium Delay"	1962
+"509"	"Feb"	"Thurs"	"Mid-Day"	"On Time"	6046
+"510"	"Feb"	"Thurs"	"Mid-Day"	"Short Delay"	1143
+"511"	"Feb"	"Thurs"	"Morning"	"Cancelled"	100
+"512"	"Feb"	"Thurs"	"Morning"	"Long Delay"	331
+"513"	"Feb"	"Thurs"	"Morning"	"Medium Delay"	878
+"514"	"Feb"	"Thurs"	"Morning"	"On Time"	3204
+"515"	"Feb"	"Thurs"	"Morning"	"Short Delay"	601
+"516"	"Feb"	"Thurs"	"Night"	"Cancelled"	27
+"517"	"Feb"	"Thurs"	"Night"	"Long Delay"	123
+"518"	"Feb"	"Thurs"	"Night"	"Medium Delay"	177
+"519"	"Feb"	"Thurs"	"Night"	"On Time"	464
+"520"	"Feb"	"Thurs"	"Night"	"Short Delay"	80
+"521"	"Feb"	"Tues"	"Evening"	"Cancelled"	218
+"522"	"Feb"	"Tues"	"Evening"	"Long Delay"	933
+"523"	"Feb"	"Tues"	"Evening"	"Medium Delay"	1798
+"524"	"Feb"	"Tues"	"Evening"	"On Time"	5449
+"525"	"Feb"	"Tues"	"Evening"	"Short Delay"	924
+"526"	"Feb"	"Tues"	"Mid-Day"	"Cancelled"	241
+"527"	"Feb"	"Tues"	"Mid-Day"	"Long Delay"	768
+"528"	"Feb"	"Tues"	"Mid-Day"	"Medium Delay"	1826
+"529"	"Feb"	"Tues"	"Mid-Day"	"On Time"	6142
+"530"	"Feb"	"Tues"	"Mid-Day"	"Short Delay"	1058
+"531"	"Feb"	"Tues"	"Morning"	"Cancelled"	109
+"532"	"Feb"	"Tues"	"Morning"	"Long Delay"	356
+"533"	"Feb"	"Tues"	"Morning"	"Medium Delay"	786
+"534"	"Feb"	"Tues"	"Morning"	"On Time"	3267
+"535"	"Feb"	"Tues"	"Morning"	"Short Delay"	521
+"536"	"Feb"	"Tues"	"Night"	"Cancelled"	23
+"537"	"Feb"	"Tues"	"Night"	"Long Delay"	92
+"538"	"Feb"	"Tues"	"Night"	"Medium Delay"	141
+"539"	"Feb"	"Tues"	"Night"	"On Time"	518
+"540"	"Feb"	"Tues"	"Night"	"Short Delay"	72
+"541"	"Feb"	"Wed"	"Evening"	"Cancelled"	289
+"542"	"Feb"	"Wed"	"Evening"	"Long Delay"	1106
+"543"	"Feb"	"Wed"	"Evening"	"Medium Delay"	2097
+"544"	"Feb"	"Wed"	"Evening"	"On Time"	4865
+"545"	"Feb"	"Wed"	"Evening"	"Short Delay"	979
+"546"	"Feb"	"Wed"	"Mid-Day"	"Cancelled"	352
+"547"	"Feb"	"Wed"	"Mid-Day"	"Long Delay"	824
+"548"	"Feb"	"Wed"	"Mid-Day"	"Medium Delay"	1874
+"549"	"Feb"	"Wed"	"Mid-Day"	"On Time"	5911
+"550"	"Feb"	"Wed"	"Mid-Day"	"Short Delay"	1109
+"551"	"Feb"	"Wed"	"Morning"	"Cancelled"	123
+"552"	"Feb"	"Wed"	"Morning"	"Long Delay"	312
+"553"	"Feb"	"Wed"	"Morning"	"Medium Delay"	796
+"554"	"Feb"	"Wed"	"Morning"	"On Time"	3259
+"555"	"Feb"	"Wed"	"Morning"	"Short Delay"	581
+"556"	"Feb"	"Wed"	"Night"	"Cancelled"	28
+"557"	"Feb"	"Wed"	"Night"	"Long Delay"	94
+"558"	"Feb"	"Wed"	"Night"	"Medium Delay"	135
+"559"	"Feb"	"Wed"	"Night"	"On Time"	507
+"560"	"Feb"	"Wed"	"Night"	"Short Delay"	80
+"561"	"Jan"	"Fri"	"Evening"	"Cancelled"	182
+"562"	"Jan"	"Fri"	"Evening"	"Long Delay"	1183
+"563"	"Jan"	"Fri"	"Evening"	"Medium Delay"	1956
+"564"	"Jan"	"Fri"	"Evening"	"On Time"	5411
+"565"	"Jan"	"Fri"	"Evening"	"Short Delay"	984
+"566"	"Jan"	"Fri"	"Mid-Day"	"Cancelled"	178
+"567"	"Jan"	"Fri"	"Mid-Day"	"Long Delay"	837
+"568"	"Jan"	"Fri"	"Mid-Day"	"Medium Delay"	1976
+"569"	"Jan"	"Fri"	"Mid-Day"	"On Time"	6531
+"570"	"Jan"	"Fri"	"Mid-Day"	"Short Delay"	1166
+"571"	"Jan"	"Fri"	"Morning"	"Cancelled"	71
+"572"	"Jan"	"Fri"	"Morning"	"Long Delay"	322
+"573"	"Jan"	"Fri"	"Morning"	"Medium Delay"	898
+"574"	"Jan"	"Fri"	"Morning"	"On Time"	3435
+"575"	"Jan"	"Fri"	"Morning"	"Short Delay"	586
+"576"	"Jan"	"Fri"	"Night"	"Cancelled"	15
+"577"	"Jan"	"Fri"	"Night"	"Long Delay"	89
+"578"	"Jan"	"Fri"	"Night"	"Medium Delay"	143
+"579"	"Jan"	"Fri"	"Night"	"On Time"	498
+"580"	"Jan"	"Fri"	"Night"	"Short Delay"	83
+"581"	"Jan"	"Mon"	"Evening"	"Cancelled"	282
+"582"	"Jan"	"Mon"	"Evening"	"Long Delay"	1318
+"583"	"Jan"	"Mon"	"Evening"	"Medium Delay"	2103
+"584"	"Jan"	"Mon"	"Evening"	"On Time"	5502
+"585"	"Jan"	"Mon"	"Evening"	"Short Delay"	1023
+"586"	"Jan"	"Mon"	"Mid-Day"	"Cancelled"	196
+"587"	"Jan"	"Mon"	"Mid-Day"	"Long Delay"	1250
+"588"	"Jan"	"Mon"	"Mid-Day"	"Medium Delay"	2302
+"589"	"Jan"	"Mon"	"Mid-Day"	"On Time"	6343
+"590"	"Jan"	"Mon"	"Mid-Day"	"Short Delay"	1171
+"591"	"Jan"	"Mon"	"Morning"	"Cancelled"	109
+"592"	"Jan"	"Mon"	"Morning"	"Long Delay"	489
+"593"	"Jan"	"Mon"	"Morning"	"Medium Delay"	1052
+"594"	"Jan"	"Mon"	"Morning"	"On Time"	3301
+"595"	"Jan"	"Mon"	"Morning"	"Short Delay"	643
+"596"	"Jan"	"Mon"	"Night"	"Cancelled"	32
+"597"	"Jan"	"Mon"	"Night"	"Long Delay"	102
+"598"	"Jan"	"Mon"	"Night"	"Medium Delay"	178
+"599"	"Jan"	"Mon"	"Night"	"On Time"	515
+"600"	"Jan"	"Mon"	"Night"	"Short Delay"	79
+"601"	"Jan"	"Sat"	"Evening"	"Cancelled"	182
+"602"	"Jan"	"Sat"	"Evening"	"Long Delay"	667
+"603"	"Jan"	"Sat"	"Evening"	"Medium Delay"	1281
+"604"	"Jan"	"Sat"	"Evening"	"On Time"	5062
+"605"	"Jan"	"Sat"	"Evening"	"Short Delay"	676
+"606"	"Jan"	"Sat"	"Mid-Day"	"Cancelled"	205
+"607"	"Jan"	"Sat"	"Mid-Day"	"Long Delay"	754
+"608"	"Jan"	"Sat"	"Mid-Day"	"Medium Delay"	1625
+"609"	"Jan"	"Sat"	"Mid-Day"	"On Time"	5721
+"610"	"Jan"	"Sat"	"Mid-Day"	"Short Delay"	992
+"611"	"Jan"	"Sat"	"Morning"	"Cancelled"	80
+"612"	"Jan"	"Sat"	"Morning"	"Long Delay"	299
+"613"	"Jan"	"Sat"	"Morning"	"Medium Delay"	818
+"614"	"Jan"	"Sat"	"Morning"	"On Time"	2857
+"615"	"Jan"	"Sat"	"Morning"	"Short Delay"	568
+"616"	"Jan"	"Sat"	"Night"	"Cancelled"	8
+"617"	"Jan"	"Sat"	"Night"	"Long Delay"	39
+"618"	"Jan"	"Sat"	"Night"	"Medium Delay"	101
+"619"	"Jan"	"Sat"	"Night"	"On Time"	361
+"620"	"Jan"	"Sat"	"Night"	"Short Delay"	44
+"621"	"Jan"	"Sun"	"Evening"	"Cancelled"	162
+"622"	"Jan"	"Sun"	"Evening"	"Long Delay"	1056
+"623"	"Jan"	"Sun"	"Evening"	"Medium Delay"	1988
+"624"	"Jan"	"Sun"	"Evening"	"On Time"	5321
+"625"	"Jan"	"Sun"	"Evening"	"Short Delay"	1005
+"626"	"Jan"	"Sun"	"Mid-Day"	"Cancelled"	228
+"627"	"Jan"	"Sun"	"Mid-Day"	"Long Delay"	826
+"628"	"Jan"	"Sun"	"Mid-Day"	"Medium Delay"	1850
+"629"	"Jan"	"Sun"	"Mid-Day"	"On Time"	6139
+"630"	"Jan"	"Sun"	"Mid-Day"	"Short Delay"	1060
+"631"	"Jan"	"Sun"	"Morning"	"Cancelled"	97
+"632"	"Jan"	"Sun"	"Morning"	"Long Delay"	272
+"633"	"Jan"	"Sun"	"Morning"	"Medium Delay"	595
+"634"	"Jan"	"Sun"	"Morning"	"On Time"	2892
+"635"	"Jan"	"Sun"	"Morning"	"Short Delay"	410
+"636"	"Jan"	"Sun"	"Night"	"Cancelled"	11
+"637"	"Jan"	"Sun"	"Night"	"Long Delay"	104
+"638"	"Jan"	"Sun"	"Night"	"Medium Delay"	194
+"639"	"Jan"	"Sun"	"Night"	"On Time"	448
+"640"	"Jan"	"Sun"	"Night"	"Short Delay"	73
+"641"	"Jan"	"Thurs"	"Evening"	"Cancelled"	145
+"642"	"Jan"	"Thurs"	"Evening"	"Long Delay"	1030
+"643"	"Jan"	"Thurs"	"Evening"	"Medium Delay"	2040
+"644"	"Jan"	"Thurs"	"Evening"	"On Time"	5992
+"645"	"Jan"	"Thurs"	"Evening"	"Short Delay"	1058
+"646"	"Jan"	"Thurs"	"Mid-Day"	"Cancelled"	246
+"647"	"Jan"	"Thurs"	"Mid-Day"	"Long Delay"	794
+"648"	"Jan"	"Thurs"	"Mid-Day"	"Medium Delay"	1958
+"649"	"Jan"	"Thurs"	"Mid-Day"	"On Time"	7085
+"650"	"Jan"	"Thurs"	"Mid-Day"	"Short Delay"	1199
+"651"	"Jan"	"Thurs"	"Morning"	"Cancelled"	100
+"652"	"Jan"	"Thurs"	"Morning"	"Long Delay"	359
+"653"	"Jan"	"Thurs"	"Morning"	"Medium Delay"	805
+"654"	"Jan"	"Thurs"	"Morning"	"On Time"	3671
+"655"	"Jan"	"Thurs"	"Morning"	"Short Delay"	626
+"656"	"Jan"	"Thurs"	"Night"	"Cancelled"	11
+"657"	"Jan"	"Thurs"	"Night"	"Long Delay"	85
+"658"	"Jan"	"Thurs"	"Night"	"Medium Delay"	146
+"659"	"Jan"	"Thurs"	"Night"	"On Time"	543
+"660"	"Jan"	"Thurs"	"Night"	"Short Delay"	70
+"661"	"Jan"	"Tues"	"Evening"	"Cancelled"	171
+"662"	"Jan"	"Tues"	"Evening"	"Long Delay"	955
+"663"	"Jan"	"Tues"	"Evening"	"Medium Delay"	2051
+"664"	"Jan"	"Tues"	"Evening"	"On Time"	6306
+"665"	"Jan"	"Tues"	"Evening"	"Short Delay"	1041
+"666"	"Jan"	"Tues"	"Mid-Day"	"Cancelled"	226
+"667"	"Jan"	"Tues"	"Mid-Day"	"Long Delay"	898
+"668"	"Jan"	"Tues"	"Mid-Day"	"Medium Delay"	2108
+"669"	"Jan"	"Tues"	"Mid-Day"	"On Time"	7082
+"670"	"Jan"	"Tues"	"Mid-Day"	"Short Delay"	1192
+"671"	"Jan"	"Tues"	"Morning"	"Cancelled"	107
+"672"	"Jan"	"Tues"	"Morning"	"Long Delay"	345
+"673"	"Jan"	"Tues"	"Morning"	"Medium Delay"	923
+"674"	"Jan"	"Tues"	"Morning"	"On Time"	3700
+"675"	"Jan"	"Tues"	"Morning"	"Short Delay"	620
+"676"	"Jan"	"Tues"	"Night"	"Cancelled"	20
+"677"	"Jan"	"Tues"	"Night"	"Long Delay"	89
+"678"	"Jan"	"Tues"	"Night"	"Medium Delay"	157
+"679"	"Jan"	"Tues"	"Night"	"On Time"	565
+"680"	"Jan"	"Tues"	"Night"	"Short Delay"	65
+"681"	"Jan"	"Wed"	"Evening"	"Cancelled"	189
+"682"	"Jan"	"Wed"	"Evening"	"Long Delay"	979
+"683"	"Jan"	"Wed"	"Evening"	"Medium Delay"	2035
+"684"	"Jan"	"Wed"	"Evening"	"On Time"	6284
+"685"	"Jan"	"Wed"	"Evening"	"Short Delay"	1063
+"686"	"Jan"	"Wed"	"Mid-Day"	"Cancelled"	201
+"687"	"Jan"	"Wed"	"Mid-Day"	"Long Delay"	862
+"688"	"Jan"	"Wed"	"Mid-Day"	"Medium Delay"	2129
+"689"	"Jan"	"Wed"	"Mid-Day"	"On Time"	7241
+"690"	"Jan"	"Wed"	"Mid-Day"	"Short Delay"	1149
+"691"	"Jan"	"Wed"	"Morning"	"Cancelled"	88
+"692"	"Jan"	"Wed"	"Morning"	"Long Delay"	337
+"693"	"Jan"	"Wed"	"Morning"	"Medium Delay"	902
+"694"	"Jan"	"Wed"	"Morning"	"On Time"	3789
+"695"	"Jan"	"Wed"	"Morning"	"Short Delay"	585
+"696"	"Jan"	"Wed"	"Night"	"Cancelled"	11
+"697"	"Jan"	"Wed"	"Night"	"Long Delay"	92
+"698"	"Jan"	"Wed"	"Night"	"Medium Delay"	155
+"699"	"Jan"	"Wed"	"Night"	"On Time"	570
+"700"	"Jan"	"Wed"	"Night"	"Short Delay"	71
+"701"	"Jul"	"Fri"	"Evening"	"Cancelled"	173
+"702"	"Jul"	"Fri"	"Evening"	"Long Delay"	1405
+"703"	"Jul"	"Fri"	"Evening"	"Medium Delay"	2100
+"704"	"Jul"	"Fri"	"Evening"	"On Time"	5413
+"705"	"Jul"	"Fri"	"Evening"	"Short Delay"	1042
+"706"	"Jul"	"Fri"	"Mid-Day"	"Cancelled"	120
+"707"	"Jul"	"Fri"	"Mid-Day"	"Long Delay"	941
+"708"	"Jul"	"Fri"	"Mid-Day"	"Medium Delay"	2240
+"709"	"Jul"	"Fri"	"Mid-Day"	"On Time"	6576
+"710"	"Jul"	"Fri"	"Mid-Day"	"Short Delay"	1386
+"711"	"Jul"	"Fri"	"Morning"	"Cancelled"	70
+"712"	"Jul"	"Fri"	"Morning"	"Long Delay"	351
+"713"	"Jul"	"Fri"	"Morning"	"Medium Delay"	700
+"714"	"Jul"	"Fri"	"Morning"	"On Time"	4062
+"715"	"Jul"	"Fri"	"Morning"	"Short Delay"	583
+"716"	"Jul"	"Fri"	"Night"	"Cancelled"	18
+"717"	"Jul"	"Fri"	"Night"	"Long Delay"	189
+"718"	"Jul"	"Fri"	"Night"	"Medium Delay"	205
+"719"	"Jul"	"Fri"	"Night"	"On Time"	563
+"720"	"Jul"	"Fri"	"Night"	"Short Delay"	106
+"721"	"Jul"	"Mon"	"Evening"	"Cancelled"	133
+"722"	"Jul"	"Mon"	"Evening"	"Long Delay"	1704
+"723"	"Jul"	"Mon"	"Evening"	"Medium Delay"	2358
+"724"	"Jul"	"Mon"	"Evening"	"On Time"	5648
+"725"	"Jul"	"Mon"	"Evening"	"Short Delay"	1124
+"726"	"Jul"	"Mon"	"Mid-Day"	"Cancelled"	145
+"727"	"Jul"	"Mon"	"Mid-Day"	"Long Delay"	1087
+"728"	"Jul"	"Mon"	"Mid-Day"	"Medium Delay"	2250
+"729"	"Jul"	"Mon"	"Mid-Day"	"On Time"	7003
+"730"	"Jul"	"Mon"	"Mid-Day"	"Short Delay"	1470
+"731"	"Jul"	"Mon"	"Morning"	"Cancelled"	92
+"732"	"Jul"	"Mon"	"Morning"	"Long Delay"	377
+"733"	"Jul"	"Mon"	"Morning"	"Medium Delay"	882
+"734"	"Jul"	"Mon"	"Morning"	"On Time"	3981
+"735"	"Jul"	"Mon"	"Morning"	"Short Delay"	742
+"736"	"Jul"	"Mon"	"Night"	"Cancelled"	19
+"737"	"Jul"	"Mon"	"Night"	"Long Delay"	205
+"738"	"Jul"	"Mon"	"Night"	"Medium Delay"	198
+"739"	"Jul"	"Mon"	"Night"	"On Time"	697
+"740"	"Jul"	"Mon"	"Night"	"Short Delay"	97
+"741"	"Jul"	"Sat"	"Evening"	"Cancelled"	65
+"742"	"Jul"	"Sat"	"Evening"	"Long Delay"	896
+"743"	"Jul"	"Sat"	"Evening"	"Medium Delay"	1810
+"744"	"Jul"	"Sat"	"Evening"	"On Time"	5549
+"745"	"Jul"	"Sat"	"Evening"	"Short Delay"	984
+"746"	"Jul"	"Sat"	"Mid-Day"	"Cancelled"	70
+"747"	"Jul"	"Sat"	"Mid-Day"	"Long Delay"	938
+"748"	"Jul"	"Sat"	"Mid-Day"	"Medium Delay"	2128
+"749"	"Jul"	"Sat"	"Mid-Day"	"On Time"	6503
+"750"	"Jul"	"Sat"	"Mid-Day"	"Short Delay"	1367
+"751"	"Jul"	"Sat"	"Morning"	"Cancelled"	65
+"752"	"Jul"	"Sat"	"Morning"	"Long Delay"	316
+"753"	"Jul"	"Sat"	"Morning"	"Medium Delay"	701
+"754"	"Jul"	"Sat"	"Morning"	"On Time"	3803
+"755"	"Jul"	"Sat"	"Morning"	"Short Delay"	605
+"756"	"Jul"	"Sat"	"Night"	"Cancelled"	10
+"757"	"Jul"	"Sat"	"Night"	"Long Delay"	92
+"758"	"Jul"	"Sat"	"Night"	"Medium Delay"	147
+"759"	"Jul"	"Sat"	"Night"	"On Time"	575
+"760"	"Jul"	"Sat"	"Night"	"Short Delay"	81
+"761"	"Jul"	"Sun"	"Evening"	"Cancelled"	239
+"762"	"Jul"	"Sun"	"Evening"	"Long Delay"	1790
+"763"	"Jul"	"Sun"	"Evening"	"Medium Delay"	2279
+"764"	"Jul"	"Sun"	"Evening"	"On Time"	5374
+"765"	"Jul"	"Sun"	"Evening"	"Short Delay"	1111
+"766"	"Jul"	"Sun"	"Mid-Day"	"Cancelled"	169
+"767"	"Jul"	"Sun"	"Mid-Day"	"Long Delay"	946
+"768"	"Jul"	"Sun"	"Mid-Day"	"Medium Delay"	2195
+"769"	"Jul"	"Sun"	"Mid-Day"	"On Time"	6945
+"770"	"Jul"	"Sun"	"Mid-Day"	"Short Delay"	1424
+"771"	"Jul"	"Sun"	"Morning"	"Cancelled"	64
+"772"	"Jul"	"Sun"	"Morning"	"Long Delay"	358
+"773"	"Jul"	"Sun"	"Morning"	"Medium Delay"	731
+"774"	"Jul"	"Sun"	"Morning"	"On Time"	3678
+"775"	"Jul"	"Sun"	"Morning"	"Short Delay"	550
+"776"	"Jul"	"Sun"	"Night"	"Cancelled"	32
+"777"	"Jul"	"Sun"	"Night"	"Long Delay"	237
+"778"	"Jul"	"Sun"	"Night"	"Medium Delay"	256
+"779"	"Jul"	"Sun"	"Night"	"On Time"	545
+"780"	"Jul"	"Sun"	"Night"	"Short Delay"	121
+"781"	"Jul"	"Thurs"	"Evening"	"Cancelled"	142
+"782"	"Jul"	"Thurs"	"Evening"	"Long Delay"	1633
+"783"	"Jul"	"Thurs"	"Evening"	"Medium Delay"	2363
+"784"	"Jul"	"Thurs"	"Evening"	"On Time"	5231
+"785"	"Jul"	"Thurs"	"Evening"	"Short Delay"	1167
+"786"	"Jul"	"Thurs"	"Mid-Day"	"Cancelled"	117
+"787"	"Jul"	"Thurs"	"Mid-Day"	"Long Delay"	1115
+"788"	"Jul"	"Thurs"	"Mid-Day"	"Medium Delay"	2423
+"789"	"Jul"	"Thurs"	"Mid-Day"	"On Time"	6509
+"790"	"Jul"	"Thurs"	"Mid-Day"	"Short Delay"	1457
+"791"	"Jul"	"Thurs"	"Morning"	"Cancelled"	71
+"792"	"Jul"	"Thurs"	"Morning"	"Long Delay"	312
+"793"	"Jul"	"Thurs"	"Morning"	"Medium Delay"	687
+"794"	"Jul"	"Thurs"	"Morning"	"On Time"	4247
+"795"	"Jul"	"Thurs"	"Morning"	"Short Delay"	638
+"796"	"Jul"	"Thurs"	"Night"	"Cancelled"	16
+"797"	"Jul"	"Thurs"	"Night"	"Long Delay"	218
+"798"	"Jul"	"Thurs"	"Night"	"Medium Delay"	253
+"799"	"Jul"	"Thurs"	"Night"	"On Time"	549
+"800"	"Jul"	"Thurs"	"Night"	"Short Delay"	106
+"801"	"Jul"	"Tues"	"Evening"	"Cancelled"	141
+"802"	"Jul"	"Tues"	"Evening"	"Long Delay"	1422
+"803"	"Jul"	"Tues"	"Evening"	"Medium Delay"	2348
+"804"	"Jul"	"Tues"	"Evening"	"On Time"	6097
+"805"	"Jul"	"Tues"	"Evening"	"Short Delay"	1261
+"806"	"Jul"	"Tues"	"Mid-Day"	"Cancelled"	154
+"807"	"Jul"	"Tues"	"Mid-Day"	"Long Delay"	832
+"808"	"Jul"	"Tues"	"Mid-Day"	"Medium Delay"	2164
+"809"	"Jul"	"Tues"	"Mid-Day"	"On Time"	7630
+"810"	"Jul"	"Tues"	"Mid-Day"	"Short Delay"	1521
+"811"	"Jul"	"Tues"	"Morning"	"Cancelled"	68
+"812"	"Jul"	"Tues"	"Morning"	"Long Delay"	318
+"813"	"Jul"	"Tues"	"Morning"	"Medium Delay"	747
+"814"	"Jul"	"Tues"	"Morning"	"On Time"	4504
+"815"	"Jul"	"Tues"	"Morning"	"Short Delay"	674
+"816"	"Jul"	"Tues"	"Night"	"Cancelled"	19
+"817"	"Jul"	"Tues"	"Night"	"Long Delay"	195
+"818"	"Jul"	"Tues"	"Night"	"Medium Delay"	227
+"819"	"Jul"	"Tues"	"Night"	"On Time"	676
+"820"	"Jul"	"Tues"	"Night"	"Short Delay"	119
+"821"	"Jul"	"Wed"	"Evening"	"Cancelled"	199
+"822"	"Jul"	"Wed"	"Evening"	"Long Delay"	1778
+"823"	"Jul"	"Wed"	"Evening"	"Medium Delay"	2275
+"824"	"Jul"	"Wed"	"Evening"	"On Time"	5160
+"825"	"Jul"	"Wed"	"Evening"	"Short Delay"	1121
+"826"	"Jul"	"Wed"	"Mid-Day"	"Cancelled"	183
+"827"	"Jul"	"Wed"	"Mid-Day"	"Long Delay"	1392
+"828"	"Jul"	"Wed"	"Mid-Day"	"Medium Delay"	2246
+"829"	"Jul"	"Wed"	"Mid-Day"	"On Time"	6499
+"830"	"Jul"	"Wed"	"Mid-Day"	"Short Delay"	1260
+"831"	"Jul"	"Wed"	"Morning"	"Cancelled"	67
+"832"	"Jul"	"Wed"	"Morning"	"Long Delay"	438
+"833"	"Jul"	"Wed"	"Morning"	"Medium Delay"	830
+"834"	"Jul"	"Wed"	"Morning"	"On Time"	3956
+"835"	"Jul"	"Wed"	"Morning"	"Short Delay"	646
+"836"	"Jul"	"Wed"	"Night"	"Cancelled"	25
+"837"	"Jul"	"Wed"	"Night"	"Long Delay"	204
+"838"	"Jul"	"Wed"	"Night"	"Medium Delay"	223
+"839"	"Jul"	"Wed"	"Night"	"On Time"	560
+"840"	"Jul"	"Wed"	"Night"	"Short Delay"	113
+"841"	"Jun"	"Fri"	"Evening"	"Cancelled"	276
+"842"	"Jun"	"Fri"	"Evening"	"Long Delay"	2088
+"843"	"Jun"	"Fri"	"Evening"	"Medium Delay"	2259
+"844"	"Jun"	"Fri"	"Evening"	"On Time"	4854
+"845"	"Jun"	"Fri"	"Evening"	"Short Delay"	1114
+"846"	"Jun"	"Fri"	"Mid-Day"	"Cancelled"	253
+"847"	"Jun"	"Fri"	"Mid-Day"	"Long Delay"	1340
+"848"	"Jun"	"Fri"	"Mid-Day"	"Medium Delay"	2356
+"849"	"Jun"	"Fri"	"Mid-Day"	"On Time"	6200
+"850"	"Jun"	"Fri"	"Mid-Day"	"Short Delay"	1395
+"851"	"Jun"	"Fri"	"Morning"	"Cancelled"	98
+"852"	"Jun"	"Fri"	"Morning"	"Long Delay"	392
+"853"	"Jun"	"Fri"	"Morning"	"Medium Delay"	893
+"854"	"Jun"	"Fri"	"Morning"	"On Time"	3988
+"855"	"Jun"	"Fri"	"Morning"	"Short Delay"	595
+"856"	"Jun"	"Fri"	"Night"	"Cancelled"	30
+"857"	"Jun"	"Fri"	"Night"	"Long Delay"	219
+"858"	"Jun"	"Fri"	"Night"	"Medium Delay"	263
+"859"	"Jun"	"Fri"	"Night"	"On Time"	543
+"860"	"Jun"	"Fri"	"Night"	"Short Delay"	100
+"861"	"Jun"	"Mon"	"Evening"	"Cancelled"	270
+"862"	"Jun"	"Mon"	"Evening"	"Long Delay"	2096
+"863"	"Jun"	"Mon"	"Evening"	"Medium Delay"	2033
+"864"	"Jun"	"Mon"	"Evening"	"On Time"	4794
+"865"	"Jun"	"Mon"	"Evening"	"Short Delay"	1010
+"866"	"Jun"	"Mon"	"Mid-Day"	"Cancelled"	133
+"867"	"Jun"	"Mon"	"Mid-Day"	"Long Delay"	1123
+"868"	"Jun"	"Mon"	"Mid-Day"	"Medium Delay"	2150
+"869"	"Jun"	"Mon"	"Mid-Day"	"On Time"	6431
+"870"	"Jun"	"Mon"	"Mid-Day"	"Short Delay"	1347
+"871"	"Jun"	"Mon"	"Morning"	"Cancelled"	66
+"872"	"Jun"	"Mon"	"Morning"	"Long Delay"	366
+"873"	"Jun"	"Mon"	"Morning"	"Medium Delay"	762
+"874"	"Jun"	"Mon"	"Morning"	"On Time"	3960
+"875"	"Jun"	"Mon"	"Morning"	"Short Delay"	629
+"876"	"Jun"	"Mon"	"Night"	"Cancelled"	30
+"877"	"Jun"	"Mon"	"Night"	"Long Delay"	265
+"878"	"Jun"	"Mon"	"Night"	"Medium Delay"	208
+"879"	"Jun"	"Mon"	"Night"	"On Time"	477
+"880"	"Jun"	"Mon"	"Night"	"Short Delay"	90
+"881"	"Jun"	"Sat"	"Evening"	"Cancelled"	118
+"882"	"Jun"	"Sat"	"Evening"	"Long Delay"	924
+"883"	"Jun"	"Sat"	"Evening"	"Medium Delay"	1776
+"884"	"Jun"	"Sat"	"Evening"	"On Time"	5522
+"885"	"Jun"	"Sat"	"Evening"	"Short Delay"	993
+"886"	"Jun"	"Sat"	"Mid-Day"	"Cancelled"	147
+"887"	"Jun"	"Sat"	"Mid-Day"	"Long Delay"	791
+"888"	"Jun"	"Sat"	"Mid-Day"	"Medium Delay"	1954
+"889"	"Jun"	"Sat"	"Mid-Day"	"On Time"	6674
+"890"	"Jun"	"Sat"	"Mid-Day"	"Short Delay"	1337
+"891"	"Jun"	"Sat"	"Morning"	"Cancelled"	89
+"892"	"Jun"	"Sat"	"Morning"	"Long Delay"	289
+"893"	"Jun"	"Sat"	"Morning"	"Medium Delay"	741
+"894"	"Jun"	"Sat"	"Morning"	"On Time"	3820
+"895"	"Jun"	"Sat"	"Morning"	"Short Delay"	599
+"896"	"Jun"	"Sat"	"Night"	"Cancelled"	15
+"897"	"Jun"	"Sat"	"Night"	"Long Delay"	100
+"898"	"Jun"	"Sat"	"Night"	"Medium Delay"	137
+"899"	"Jun"	"Sat"	"Night"	"On Time"	564
+"900"	"Jun"	"Sat"	"Night"	"Short Delay"	72
+"901"	"Jun"	"Sun"	"Evening"	"Cancelled"	101
+"902"	"Jun"	"Sun"	"Evening"	"Long Delay"	1208
+"903"	"Jun"	"Sun"	"Evening"	"Medium Delay"	2108
+"904"	"Jun"	"Sun"	"Evening"	"On Time"	5878
+"905"	"Jun"	"Sun"	"Evening"	"Short Delay"	1149
+"906"	"Jun"	"Sun"	"Mid-Day"	"Cancelled"	86
+"907"	"Jun"	"Sun"	"Mid-Day"	"Long Delay"	731
+"908"	"Jun"	"Sun"	"Mid-Day"	"Medium Delay"	1875
+"909"	"Jun"	"Sun"	"Mid-Day"	"On Time"	7201
+"910"	"Jun"	"Sun"	"Mid-Day"	"Short Delay"	1352
+"911"	"Jun"	"Sun"	"Morning"	"Cancelled"	69
+"912"	"Jun"	"Sun"	"Morning"	"Long Delay"	243
+"913"	"Jun"	"Sun"	"Morning"	"Medium Delay"	658
+"914"	"Jun"	"Sun"	"Morning"	"On Time"	3654
+"915"	"Jun"	"Sun"	"Morning"	"Short Delay"	525
+"916"	"Jun"	"Sun"	"Night"	"Cancelled"	12
+"917"	"Jun"	"Sun"	"Night"	"Long Delay"	166
+"918"	"Jun"	"Sun"	"Night"	"Medium Delay"	211
+"919"	"Jun"	"Sun"	"Night"	"On Time"	613
+"920"	"Jun"	"Sun"	"Night"	"Short Delay"	94
+"921"	"Jun"	"Thurs"	"Evening"	"Cancelled"	198
+"922"	"Jun"	"Thurs"	"Evening"	"Long Delay"	1920
+"923"	"Jun"	"Thurs"	"Evening"	"Medium Delay"	2226
+"924"	"Jun"	"Thurs"	"Evening"	"On Time"	4817
+"925"	"Jun"	"Thurs"	"Evening"	"Short Delay"	1058
+"926"	"Jun"	"Thurs"	"Mid-Day"	"Cancelled"	160
+"927"	"Jun"	"Thurs"	"Mid-Day"	"Long Delay"	1036
+"928"	"Jun"	"Thurs"	"Mid-Day"	"Medium Delay"	2324
+"929"	"Jun"	"Thurs"	"Mid-Day"	"On Time"	6294
+"930"	"Jun"	"Thurs"	"Mid-Day"	"Short Delay"	1362
+"931"	"Jun"	"Thurs"	"Morning"	"Cancelled"	100
+"932"	"Jun"	"Thurs"	"Morning"	"Long Delay"	345
+"933"	"Jun"	"Thurs"	"Morning"	"Medium Delay"	829
+"934"	"Jun"	"Thurs"	"Morning"	"On Time"	3886
+"935"	"Jun"	"Thurs"	"Morning"	"Short Delay"	610
+"936"	"Jun"	"Thurs"	"Night"	"Cancelled"	26
+"937"	"Jun"	"Thurs"	"Night"	"Long Delay"	247
+"938"	"Jun"	"Thurs"	"Night"	"Medium Delay"	270
+"939"	"Jun"	"Thurs"	"Night"	"On Time"	443
+"940"	"Jun"	"Thurs"	"Night"	"Short Delay"	94
+"941"	"Jun"	"Tues"	"Evening"	"Cancelled"	174
+"942"	"Jun"	"Tues"	"Evening"	"Long Delay"	1357
+"943"	"Jun"	"Tues"	"Evening"	"Medium Delay"	2177
+"944"	"Jun"	"Tues"	"Evening"	"On Time"	5113
+"945"	"Jun"	"Tues"	"Evening"	"Short Delay"	1078
+"946"	"Jun"	"Tues"	"Mid-Day"	"Cancelled"	206
+"947"	"Jun"	"Tues"	"Mid-Day"	"Long Delay"	970
+"948"	"Jun"	"Tues"	"Mid-Day"	"Medium Delay"	2128
+"949"	"Jun"	"Tues"	"Mid-Day"	"On Time"	6307
+"950"	"Jun"	"Tues"	"Mid-Day"	"Short Delay"	1242
+"951"	"Jun"	"Tues"	"Morning"	"Cancelled"	116
+"952"	"Jun"	"Tues"	"Morning"	"Long Delay"	361
+"953"	"Jun"	"Tues"	"Morning"	"Medium Delay"	815
+"954"	"Jun"	"Tues"	"Morning"	"On Time"	3681
+"955"	"Jun"	"Tues"	"Morning"	"Short Delay"	614
+"956"	"Jun"	"Tues"	"Night"	"Cancelled"	21
+"957"	"Jun"	"Tues"	"Night"	"Long Delay"	145
+"958"	"Jun"	"Tues"	"Night"	"Medium Delay"	203
+"959"	"Jun"	"Tues"	"Night"	"On Time"	564
+"960"	"Jun"	"Tues"	"Night"	"Short Delay"	98
+"961"	"Jun"	"Wed"	"Evening"	"Cancelled"	202
+"962"	"Jun"	"Wed"	"Evening"	"Long Delay"	1711
+"963"	"Jun"	"Wed"	"Evening"	"Medium Delay"	2360
+"964"	"Jun"	"Wed"	"Evening"	"On Time"	4802
+"965"	"Jun"	"Wed"	"Evening"	"Short Delay"	1116
+"966"	"Jun"	"Wed"	"Mid-Day"	"Cancelled"	242
+"967"	"Jun"	"Wed"	"Mid-Day"	"Long Delay"	1054
+"968"	"Jun"	"Wed"	"Mid-Day"	"Medium Delay"	2381
+"969"	"Jun"	"Wed"	"Mid-Day"	"On Time"	6150
+"970"	"Jun"	"Wed"	"Mid-Day"	"Short Delay"	1351
+"971"	"Jun"	"Wed"	"Morning"	"Cancelled"	126
+"972"	"Jun"	"Wed"	"Morning"	"Long Delay"	382
+"973"	"Jun"	"Wed"	"Morning"	"Medium Delay"	781
+"974"	"Jun"	"Wed"	"Morning"	"On Time"	3895
+"975"	"Jun"	"Wed"	"Morning"	"Short Delay"	582
+"976"	"Jun"	"Wed"	"Night"	"Cancelled"	23
+"977"	"Jun"	"Wed"	"Night"	"Long Delay"	226
+"978"	"Jun"	"Wed"	"Night"	"Medium Delay"	225
+"979"	"Jun"	"Wed"	"Night"	"On Time"	468
+"980"	"Jun"	"Wed"	"Night"	"Short Delay"	108
+"981"	"Mar"	"Fri"	"Evening"	"Cancelled"	307
+"982"	"Mar"	"Fri"	"Evening"	"Long Delay"	1714
+"983"	"Mar"	"Fri"	"Evening"	"Medium Delay"	2323
+"984"	"Mar"	"Fri"	"Evening"	"On Time"	5340
+"985"	"Mar"	"Fri"	"Evening"	"Short Delay"	1137
+"986"	"Mar"	"Fri"	"Mid-Day"	"Cancelled"	275
+"987"	"Mar"	"Fri"	"Mid-Day"	"Long Delay"	1240
+"988"	"Mar"	"Fri"	"Mid-Day"	"Medium Delay"	2373
+"989"	"Mar"	"Fri"	"Mid-Day"	"On Time"	6359
+"990"	"Mar"	"Fri"	"Mid-Day"	"Short Delay"	1320
+"991"	"Mar"	"Fri"	"Morning"	"Cancelled"	177
+"992"	"Mar"	"Fri"	"Morning"	"Long Delay"	434
+"993"	"Mar"	"Fri"	"Morning"	"Medium Delay"	1029
+"994"	"Mar"	"Fri"	"Morning"	"On Time"	3566
+"995"	"Mar"	"Fri"	"Morning"	"Short Delay"	669
+"996"	"Mar"	"Fri"	"Night"	"Cancelled"	26
+"997"	"Mar"	"Fri"	"Night"	"Long Delay"	173
+"998"	"Mar"	"Fri"	"Night"	"Medium Delay"	215
+"999"	"Mar"	"Fri"	"Night"	"On Time"	538
+"1000"	"Mar"	"Fri"	"Night"	"Short Delay"	90
+"1001"	"Mar"	"Mon"	"Evening"	"Cancelled"	226
+"1002"	"Mar"	"Mon"	"Evening"	"Long Delay"	1371
+"1003"	"Mar"	"Mon"	"Evening"	"Medium Delay"	1982
+"1004"	"Mar"	"Mon"	"Evening"	"On Time"	5971
+"1005"	"Mar"	"Mon"	"Evening"	"Short Delay"	1023
+"1006"	"Mar"	"Mon"	"Mid-Day"	"Cancelled"	315
+"1007"	"Mar"	"Mon"	"Mid-Day"	"Long Delay"	1319
+"1008"	"Mar"	"Mon"	"Mid-Day"	"Medium Delay"	2141
+"1009"	"Mar"	"Mon"	"Mid-Day"	"On Time"	6314
+"1010"	"Mar"	"Mon"	"Mid-Day"	"Short Delay"	1222
+"1011"	"Mar"	"Mon"	"Morning"	"Cancelled"	140
+"1012"	"Mar"	"Mon"	"Morning"	"Long Delay"	473
+"1013"	"Mar"	"Mon"	"Morning"	"Medium Delay"	926
+"1014"	"Mar"	"Mon"	"Morning"	"On Time"	3629
+"1015"	"Mar"	"Mon"	"Morning"	"Short Delay"	561
+"1016"	"Mar"	"Mon"	"Night"	"Cancelled"	22
+"1017"	"Mar"	"Mon"	"Night"	"Long Delay"	130
+"1018"	"Mar"	"Mon"	"Night"	"Medium Delay"	196
+"1019"	"Mar"	"Mon"	"Night"	"On Time"	574
+"1020"	"Mar"	"Mon"	"Night"	"Short Delay"	92
+"1021"	"Mar"	"Sat"	"Evening"	"Cancelled"	104
+"1022"	"Mar"	"Sat"	"Evening"	"Long Delay"	1166
+"1023"	"Mar"	"Sat"	"Evening"	"Medium Delay"	1916
+"1024"	"Mar"	"Sat"	"Evening"	"On Time"	4921
+"1025"	"Mar"	"Sat"	"Evening"	"Short Delay"	962
+"1026"	"Mar"	"Sat"	"Mid-Day"	"Cancelled"	228
+"1027"	"Mar"	"Sat"	"Mid-Day"	"Long Delay"	1178
+"1028"	"Mar"	"Sat"	"Mid-Day"	"Medium Delay"	2230
+"1029"	"Mar"	"Sat"	"Mid-Day"	"On Time"	5545
+"1030"	"Mar"	"Sat"	"Mid-Day"	"Short Delay"	1180
+"1031"	"Mar"	"Sat"	"Morning"	"Cancelled"	168
+"1032"	"Mar"	"Sat"	"Morning"	"Long Delay"	491
+"1033"	"Mar"	"Sat"	"Morning"	"Medium Delay"	1080
+"1034"	"Mar"	"Sat"	"Morning"	"On Time"	2950
+"1035"	"Mar"	"Sat"	"Morning"	"Short Delay"	644
+"1036"	"Mar"	"Sat"	"Night"	"Cancelled"	6
+"1037"	"Mar"	"Sat"	"Night"	"Long Delay"	87
+"1038"	"Mar"	"Sat"	"Night"	"Medium Delay"	160
+"1039"	"Mar"	"Sat"	"Night"	"On Time"	468
+"1040"	"Mar"	"Sat"	"Night"	"Short Delay"	56
+"1041"	"Mar"	"Sun"	"Evening"	"Cancelled"	91
+"1042"	"Mar"	"Sun"	"Evening"	"Long Delay"	1179
+"1043"	"Mar"	"Sun"	"Evening"	"Medium Delay"	2270
+"1044"	"Mar"	"Sun"	"Evening"	"On Time"	5787
+"1045"	"Mar"	"Sun"	"Evening"	"Short Delay"	1067
+"1046"	"Mar"	"Sun"	"Mid-Day"	"Cancelled"	88
+"1047"	"Mar"	"Sun"	"Mid-Day"	"Long Delay"	797
+"1048"	"Mar"	"Sun"	"Mid-Day"	"Medium Delay"	2100
+"1049"	"Mar"	"Sun"	"Mid-Day"	"On Time"	6535
+"1050"	"Mar"	"Sun"	"Mid-Day"	"Short Delay"	1221
+"1051"	"Mar"	"Sun"	"Morning"	"Cancelled"	65
+"1052"	"Mar"	"Sun"	"Morning"	"Long Delay"	317
+"1053"	"Mar"	"Sun"	"Morning"	"Medium Delay"	688
+"1054"	"Mar"	"Sun"	"Morning"	"On Time"	3000
+"1055"	"Mar"	"Sun"	"Morning"	"Short Delay"	481
+"1056"	"Mar"	"Sun"	"Night"	"Cancelled"	20
+"1057"	"Mar"	"Sun"	"Night"	"Long Delay"	131
+"1058"	"Mar"	"Sun"	"Night"	"Medium Delay"	237
+"1059"	"Mar"	"Sun"	"Night"	"On Time"	524
+"1060"	"Mar"	"Sun"	"Night"	"Short Delay"	86
+"1061"	"Mar"	"Thurs"	"Evening"	"Cancelled"	461
+"1062"	"Mar"	"Thurs"	"Evening"	"Long Delay"	1581
+"1063"	"Mar"	"Thurs"	"Evening"	"Medium Delay"	2468
+"1064"	"Mar"	"Thurs"	"Evening"	"On Time"	5154
+"1065"	"Mar"	"Thurs"	"Evening"	"Short Delay"	1191
+"1066"	"Mar"	"Thurs"	"Mid-Day"	"Cancelled"	407
+"1067"	"Mar"	"Thurs"	"Mid-Day"	"Long Delay"	1273
+"1068"	"Mar"	"Thurs"	"Mid-Day"	"Medium Delay"	2249
+"1069"	"Mar"	"Thurs"	"Mid-Day"	"On Time"	6325
+"1070"	"Mar"	"Thurs"	"Mid-Day"	"Short Delay"	1313
+"1071"	"Mar"	"Thurs"	"Morning"	"Cancelled"	126
+"1072"	"Mar"	"Thurs"	"Morning"	"Long Delay"	383
+"1073"	"Mar"	"Thurs"	"Morning"	"Medium Delay"	887
+"1074"	"Mar"	"Thurs"	"Morning"	"On Time"	3844
+"1075"	"Mar"	"Thurs"	"Morning"	"Short Delay"	660
+"1076"	"Mar"	"Thurs"	"Night"	"Cancelled"	36
+"1077"	"Mar"	"Thurs"	"Night"	"Long Delay"	167
+"1078"	"Mar"	"Thurs"	"Night"	"Medium Delay"	217
+"1079"	"Mar"	"Thurs"	"Night"	"On Time"	539
+"1080"	"Mar"	"Thurs"	"Night"	"Short Delay"	111
+"1081"	"Mar"	"Tues"	"Evening"	"Cancelled"	177
+"1082"	"Mar"	"Tues"	"Evening"	"Long Delay"	804
+"1083"	"Mar"	"Tues"	"Evening"	"Medium Delay"	1765
+"1084"	"Mar"	"Tues"	"Evening"	"On Time"	6508
+"1085"	"Mar"	"Tues"	"Evening"	"Short Delay"	988
+"1086"	"Mar"	"Tues"	"Mid-Day"	"Cancelled"	232
+"1087"	"Mar"	"Tues"	"Mid-Day"	"Long Delay"	621
+"1088"	"Mar"	"Tues"	"Mid-Day"	"Medium Delay"	1631
+"1089"	"Mar"	"Tues"	"Mid-Day"	"On Time"	7339
+"1090"	"Mar"	"Tues"	"Mid-Day"	"Short Delay"	1108
+"1091"	"Mar"	"Tues"	"Morning"	"Cancelled"	106
+"1092"	"Mar"	"Tues"	"Morning"	"Long Delay"	272
+"1093"	"Mar"	"Tues"	"Morning"	"Medium Delay"	708
+"1094"	"Mar"	"Tues"	"Morning"	"On Time"	3928
+"1095"	"Mar"	"Tues"	"Morning"	"Short Delay"	524
+"1096"	"Mar"	"Tues"	"Night"	"Cancelled"	18
+"1097"	"Mar"	"Tues"	"Night"	"Long Delay"	82
+"1098"	"Mar"	"Tues"	"Night"	"Medium Delay"	142
+"1099"	"Mar"	"Tues"	"Night"	"On Time"	648
+"1100"	"Mar"	"Tues"	"Night"	"Short Delay"	87
+"1101"	"Mar"	"Wed"	"Evening"	"Cancelled"	133
+"1102"	"Mar"	"Wed"	"Evening"	"Long Delay"	1126
+"1103"	"Mar"	"Wed"	"Evening"	"Medium Delay"	2349
+"1104"	"Mar"	"Wed"	"Evening"	"On Time"	5833
+"1105"	"Mar"	"Wed"	"Evening"	"Short Delay"	1095
+"1106"	"Mar"	"Wed"	"Mid-Day"	"Cancelled"	166
+"1107"	"Mar"	"Wed"	"Mid-Day"	"Long Delay"	841
+"1108"	"Mar"	"Wed"	"Mid-Day"	"Medium Delay"	1983
+"1109"	"Mar"	"Wed"	"Mid-Day"	"On Time"	7083
+"1110"	"Mar"	"Wed"	"Mid-Day"	"Short Delay"	1159
+"1111"	"Mar"	"Wed"	"Morning"	"Cancelled"	97
+"1112"	"Mar"	"Wed"	"Morning"	"Long Delay"	337
+"1113"	"Mar"	"Wed"	"Morning"	"Medium Delay"	695
+"1114"	"Mar"	"Wed"	"Morning"	"On Time"	3975
+"1115"	"Mar"	"Wed"	"Morning"	"Short Delay"	593
+"1116"	"Mar"	"Wed"	"Night"	"Cancelled"	12
+"1117"	"Mar"	"Wed"	"Night"	"Long Delay"	118
+"1118"	"Mar"	"Wed"	"Night"	"Medium Delay"	190
+"1119"	"Mar"	"Wed"	"Night"	"On Time"	593
+"1120"	"Mar"	"Wed"	"Night"	"Short Delay"	89
+"1121"	"May"	"Fri"	"Evening"	"Cancelled"	110
+"1122"	"May"	"Fri"	"Evening"	"Long Delay"	1306
+"1123"	"May"	"Fri"	"Evening"	"Medium Delay"	1960
+"1124"	"May"	"Fri"	"Evening"	"On Time"	5729
+"1125"	"May"	"Fri"	"Evening"	"Short Delay"	1046
+"1126"	"May"	"Fri"	"Mid-Day"	"Cancelled"	110
+"1127"	"May"	"Fri"	"Mid-Day"	"Long Delay"	843
+"1128"	"May"	"Fri"	"Mid-Day"	"Medium Delay"	1973
+"1129"	"May"	"Fri"	"Mid-Day"	"On Time"	6911
+"1130"	"May"	"Fri"	"Mid-Day"	"Short Delay"	1336
+"1131"	"May"	"Fri"	"Morning"	"Cancelled"	53
+"1132"	"May"	"Fri"	"Morning"	"Long Delay"	263
+"1133"	"May"	"Fri"	"Morning"	"Medium Delay"	715
+"1134"	"May"	"Fri"	"Morning"	"On Time"	4047
+"1135"	"May"	"Fri"	"Morning"	"Short Delay"	624
+"1136"	"May"	"Fri"	"Night"	"Cancelled"	11
+"1137"	"May"	"Fri"	"Night"	"Long Delay"	120
+"1138"	"May"	"Fri"	"Night"	"Medium Delay"	172
+"1139"	"May"	"Fri"	"Night"	"On Time"	549
+"1140"	"May"	"Fri"	"Night"	"Short Delay"	99
+"1141"	"May"	"Mon"	"Evening"	"Cancelled"	108
+"1142"	"May"	"Mon"	"Evening"	"Long Delay"	1058
+"1143"	"May"	"Mon"	"Evening"	"Medium Delay"	1744
+"1144"	"May"	"Mon"	"Evening"	"On Time"	6266
+"1145"	"May"	"Mon"	"Evening"	"Short Delay"	938
+"1146"	"May"	"Mon"	"Mid-Day"	"Cancelled"	84
+"1147"	"May"	"Mon"	"Mid-Day"	"Long Delay"	707
+"1148"	"May"	"Mon"	"Mid-Day"	"Medium Delay"	1747
+"1149"	"May"	"Mon"	"Mid-Day"	"On Time"	7405
+"1150"	"May"	"Mon"	"Mid-Day"	"Short Delay"	1158
+"1151"	"May"	"Mon"	"Morning"	"Cancelled"	61
+"1152"	"May"	"Mon"	"Morning"	"Long Delay"	232
+"1153"	"May"	"Mon"	"Morning"	"Medium Delay"	616
+"1154"	"May"	"Mon"	"Morning"	"On Time"	3976
+"1155"	"May"	"Mon"	"Morning"	"Short Delay"	568
+"1156"	"May"	"Mon"	"Night"	"Cancelled"	5
+"1157"	"May"	"Mon"	"Night"	"Long Delay"	126
+"1158"	"May"	"Mon"	"Night"	"Medium Delay"	134
+"1159"	"May"	"Mon"	"Night"	"On Time"	605
+"1160"	"May"	"Mon"	"Night"	"Short Delay"	88
+"1161"	"May"	"Sat"	"Evening"	"Cancelled"	42
+"1162"	"May"	"Sat"	"Evening"	"Long Delay"	457
+"1163"	"May"	"Sat"	"Evening"	"Medium Delay"	1167
+"1164"	"May"	"Sat"	"Evening"	"On Time"	6123
+"1165"	"May"	"Sat"	"Evening"	"Short Delay"	696
+"1166"	"May"	"Sat"	"Mid-Day"	"Cancelled"	72
+"1167"	"May"	"Sat"	"Mid-Day"	"Long Delay"	464
+"1168"	"May"	"Sat"	"Mid-Day"	"Medium Delay"	1423
+"1169"	"May"	"Sat"	"Mid-Day"	"On Time"	7181
+"1170"	"May"	"Sat"	"Mid-Day"	"Short Delay"	1026
+"1171"	"May"	"Sat"	"Morning"	"Cancelled"	58
+"1172"	"May"	"Sat"	"Morning"	"Long Delay"	221
+"1173"	"May"	"Sat"	"Morning"	"Medium Delay"	645
+"1174"	"May"	"Sat"	"Morning"	"On Time"	3754
+"1175"	"May"	"Sat"	"Morning"	"Short Delay"	452
+"1176"	"May"	"Sat"	"Night"	"Cancelled"	7
+"1177"	"May"	"Sat"	"Night"	"Long Delay"	35
+"1178"	"May"	"Sat"	"Night"	"Medium Delay"	79
+"1179"	"May"	"Sat"	"Night"	"On Time"	503
+"1180"	"May"	"Sat"	"Night"	"Short Delay"	44
+"1181"	"May"	"Sun"	"Evening"	"Cancelled"	108
+"1182"	"May"	"Sun"	"Evening"	"Long Delay"	973
+"1183"	"May"	"Sun"	"Evening"	"Medium Delay"	1690
+"1184"	"May"	"Sun"	"Evening"	"On Time"	5780
+"1185"	"May"	"Sun"	"Evening"	"Short Delay"	928
+"1186"	"May"	"Sun"	"Mid-Day"	"Cancelled"	83
+"1187"	"May"	"Sun"	"Mid-Day"	"Long Delay"	535
+"1188"	"May"	"Sun"	"Mid-Day"	"Medium Delay"	1429
+"1189"	"May"	"Sun"	"Mid-Day"	"On Time"	7248
+"1190"	"May"	"Sun"	"Mid-Day"	"Short Delay"	1037
+"1191"	"May"	"Sun"	"Morning"	"Cancelled"	34
+"1192"	"May"	"Sun"	"Morning"	"Long Delay"	158
+"1193"	"May"	"Sun"	"Morning"	"Medium Delay"	428
+"1194"	"May"	"Sun"	"Morning"	"On Time"	3513
+"1195"	"May"	"Sun"	"Morning"	"Short Delay"	331
+"1196"	"May"	"Sun"	"Night"	"Cancelled"	7
+"1197"	"May"	"Sun"	"Night"	"Long Delay"	113
+"1198"	"May"	"Sun"	"Night"	"Medium Delay"	150
+"1199"	"May"	"Sun"	"Night"	"On Time"	512
+"1200"	"May"	"Sun"	"Night"	"Short Delay"	77
+"1201"	"May"	"Thurs"	"Evening"	"Cancelled"	84
+"1202"	"May"	"Thurs"	"Evening"	"Long Delay"	1237
+"1203"	"May"	"Thurs"	"Evening"	"Medium Delay"	2296
+"1204"	"May"	"Thurs"	"Evening"	"On Time"	5921
+"1205"	"May"	"Thurs"	"Evening"	"Short Delay"	1238
+"1206"	"May"	"Thurs"	"Mid-Day"	"Cancelled"	98
+"1207"	"May"	"Thurs"	"Mid-Day"	"Long Delay"	769
+"1208"	"May"	"Thurs"	"Mid-Day"	"Medium Delay"	2116
+"1209"	"May"	"Thurs"	"Mid-Day"	"On Time"	7471
+"1210"	"May"	"Thurs"	"Mid-Day"	"Short Delay"	1378
+"1211"	"May"	"Thurs"	"Morning"	"Cancelled"	75
+"1212"	"May"	"Thurs"	"Morning"	"Long Delay"	273
+"1213"	"May"	"Thurs"	"Morning"	"Medium Delay"	777
+"1214"	"May"	"Thurs"	"Morning"	"On Time"	4326
+"1215"	"May"	"Thurs"	"Morning"	"Short Delay"	608
+"1216"	"May"	"Thurs"	"Night"	"Cancelled"	7
+"1217"	"May"	"Thurs"	"Night"	"Long Delay"	144
+"1218"	"May"	"Thurs"	"Night"	"Medium Delay"	200
+"1219"	"May"	"Thurs"	"Night"	"On Time"	583
+"1220"	"May"	"Thurs"	"Night"	"Short Delay"	96
+"1221"	"May"	"Tues"	"Evening"	"Cancelled"	105
+"1222"	"May"	"Tues"	"Evening"	"Long Delay"	918
+"1223"	"May"	"Tues"	"Evening"	"Medium Delay"	1744
+"1224"	"May"	"Tues"	"Evening"	"On Time"	6617
+"1225"	"May"	"Tues"	"Evening"	"Short Delay"	1038
+"1226"	"May"	"Tues"	"Mid-Day"	"Cancelled"	108
+"1227"	"May"	"Tues"	"Mid-Day"	"Long Delay"	529
+"1228"	"May"	"Tues"	"Mid-Day"	"Medium Delay"	1561
+"1229"	"May"	"Tues"	"Mid-Day"	"On Time"	8023
+"1230"	"May"	"Tues"	"Mid-Day"	"Short Delay"	1198
+"1231"	"May"	"Tues"	"Morning"	"Cancelled"	39
+"1232"	"May"	"Tues"	"Morning"	"Long Delay"	218
+"1233"	"May"	"Tues"	"Morning"	"Medium Delay"	578
+"1234"	"May"	"Tues"	"Morning"	"On Time"	4497
+"1235"	"May"	"Tues"	"Morning"	"Short Delay"	515
+"1236"	"May"	"Tues"	"Night"	"Cancelled"	12
+"1237"	"May"	"Tues"	"Night"	"Long Delay"	94
+"1238"	"May"	"Tues"	"Night"	"Medium Delay"	159
+"1239"	"May"	"Tues"	"Night"	"On Time"	660
+"1240"	"May"	"Tues"	"Night"	"Short Delay"	102
+"1241"	"May"	"Wed"	"Evening"	"Cancelled"	173
+"1242"	"May"	"Wed"	"Evening"	"Long Delay"	1275
+"1243"	"May"	"Wed"	"Evening"	"Medium Delay"	1951
+"1244"	"May"	"Wed"	"Evening"	"On Time"	5969
+"1245"	"May"	"Wed"	"Evening"	"Short Delay"	1067
+"1246"	"May"	"Wed"	"Mid-Day"	"Cancelled"	110
+"1247"	"May"	"Wed"	"Mid-Day"	"Long Delay"	685
+"1248"	"May"	"Wed"	"Mid-Day"	"Medium Delay"	1810
+"1249"	"May"	"Wed"	"Mid-Day"	"On Time"	7594
+"1250"	"May"	"Wed"	"Mid-Day"	"Short Delay"	1233
+"1251"	"May"	"Wed"	"Morning"	"Cancelled"	54
+"1252"	"May"	"Wed"	"Morning"	"Long Delay"	219
+"1253"	"May"	"Wed"	"Morning"	"Medium Delay"	625
+"1254"	"May"	"Wed"	"Morning"	"On Time"	4436
+"1255"	"May"	"Wed"	"Morning"	"Short Delay"	521
+"1256"	"May"	"Wed"	"Night"	"Cancelled"	9
+"1257"	"May"	"Wed"	"Night"	"Long Delay"	133
+"1258"	"May"	"Wed"	"Night"	"Medium Delay"	189
+"1259"	"May"	"Wed"	"Night"	"On Time"	603
+"1260"	"May"	"Wed"	"Night"	"Short Delay"	91
+"1261"	"Nov"	"Fri"	"Evening"	"Cancelled"	84
+"1262"	"Nov"	"Fri"	"Evening"	"Long Delay"	601
+"1263"	"Nov"	"Fri"	"Evening"	"Medium Delay"	1687
+"1264"	"Nov"	"Fri"	"Evening"	"On Time"	6086
+"1265"	"Nov"	"Fri"	"Evening"	"Short Delay"	1038
+"1266"	"Nov"	"Fri"	"Mid-Day"	"Cancelled"	88
+"1267"	"Nov"	"Fri"	"Mid-Day"	"Long Delay"	551
+"1268"	"Nov"	"Fri"	"Mid-Day"	"Medium Delay"	1784
+"1269"	"Nov"	"Fri"	"Mid-Day"	"On Time"	6722
+"1270"	"Nov"	"Fri"	"Mid-Day"	"Short Delay"	1221
+"1271"	"Nov"	"Fri"	"Morning"	"Cancelled"	55
+"1272"	"Nov"	"Fri"	"Morning"	"Long Delay"	187
+"1273"	"Nov"	"Fri"	"Morning"	"Medium Delay"	645
+"1274"	"Nov"	"Fri"	"Morning"	"On Time"	3575
+"1275"	"Nov"	"Fri"	"Morning"	"Short Delay"	464
+"1276"	"Nov"	"Fri"	"Night"	"Cancelled"	8
+"1277"	"Nov"	"Fri"	"Night"	"Long Delay"	42
+"1278"	"Nov"	"Fri"	"Night"	"Medium Delay"	131
+"1279"	"Nov"	"Fri"	"Night"	"On Time"	488
+"1280"	"Nov"	"Fri"	"Night"	"Short Delay"	69
+"1281"	"Nov"	"Mon"	"Evening"	"Cancelled"	123
+"1282"	"Nov"	"Mon"	"Evening"	"Long Delay"	968
+"1283"	"Nov"	"Mon"	"Evening"	"Medium Delay"	1932
+"1284"	"Nov"	"Mon"	"Evening"	"On Time"	5273
+"1285"	"Nov"	"Mon"	"Evening"	"Short Delay"	960
+"1286"	"Nov"	"Mon"	"Mid-Day"	"Cancelled"	138
+"1287"	"Nov"	"Mon"	"Mid-Day"	"Long Delay"	774
+"1288"	"Nov"	"Mon"	"Mid-Day"	"Medium Delay"	1805
+"1289"	"Nov"	"Mon"	"Mid-Day"	"On Time"	6305
+"1290"	"Nov"	"Mon"	"Mid-Day"	"Short Delay"	1084
+"1291"	"Nov"	"Mon"	"Morning"	"Cancelled"	40
+"1292"	"Nov"	"Mon"	"Morning"	"Long Delay"	230
+"1293"	"Nov"	"Mon"	"Morning"	"Medium Delay"	661
+"1294"	"Nov"	"Mon"	"Morning"	"On Time"	3545
+"1295"	"Nov"	"Mon"	"Morning"	"Short Delay"	539
+"1296"	"Nov"	"Mon"	"Night"	"Cancelled"	10
+"1297"	"Nov"	"Mon"	"Night"	"Long Delay"	73
+"1298"	"Nov"	"Mon"	"Night"	"Medium Delay"	126
+"1299"	"Nov"	"Mon"	"Night"	"On Time"	469
+"1300"	"Nov"	"Mon"	"Night"	"Short Delay"	61
+"1301"	"Nov"	"Sat"	"Evening"	"Cancelled"	39
+"1302"	"Nov"	"Sat"	"Evening"	"Long Delay"	364
+"1303"	"Nov"	"Sat"	"Evening"	"Medium Delay"	1075
+"1304"	"Nov"	"Sat"	"Evening"	"On Time"	5857
+"1305"	"Nov"	"Sat"	"Evening"	"Short Delay"	631
+"1306"	"Nov"	"Sat"	"Mid-Day"	"Cancelled"	55
+"1307"	"Nov"	"Sat"	"Mid-Day"	"Long Delay"	466
+"1308"	"Nov"	"Sat"	"Mid-Day"	"Medium Delay"	1460
+"1309"	"Nov"	"Sat"	"Mid-Day"	"On Time"	6762
+"1310"	"Nov"	"Sat"	"Mid-Day"	"Short Delay"	990
+"1311"	"Nov"	"Sat"	"Morning"	"Cancelled"	35
+"1312"	"Nov"	"Sat"	"Morning"	"Long Delay"	155
+"1313"	"Nov"	"Sat"	"Morning"	"Medium Delay"	511
+"1314"	"Nov"	"Sat"	"Morning"	"On Time"	3455
+"1315"	"Nov"	"Sat"	"Morning"	"Short Delay"	425
+"1316"	"Nov"	"Sat"	"Night"	"Cancelled"	2
+"1317"	"Nov"	"Sat"	"Night"	"Long Delay"	23
+"1318"	"Nov"	"Sat"	"Night"	"Medium Delay"	57
+"1319"	"Nov"	"Sat"	"Night"	"On Time"	363
+"1320"	"Nov"	"Sat"	"Night"	"Short Delay"	39
+"1321"	"Nov"	"Sun"	"Evening"	"Cancelled"	72
+"1322"	"Nov"	"Sun"	"Evening"	"Long Delay"	965
+"1323"	"Nov"	"Sun"	"Evening"	"Medium Delay"	1831
+"1324"	"Nov"	"Sun"	"Evening"	"On Time"	5604
+"1325"	"Nov"	"Sun"	"Evening"	"Short Delay"	996
+"1326"	"Nov"	"Sun"	"Mid-Day"	"Cancelled"	87
+"1327"	"Nov"	"Sun"	"Mid-Day"	"Long Delay"	658
+"1328"	"Nov"	"Sun"	"Mid-Day"	"Medium Delay"	1548
+"1329"	"Nov"	"Sun"	"Mid-Day"	"On Time"	6651
+"1330"	"Nov"	"Sun"	"Mid-Day"	"Short Delay"	1069
+"1331"	"Nov"	"Sun"	"Morning"	"Cancelled"	22
+"1332"	"Nov"	"Sun"	"Morning"	"Long Delay"	155
+"1333"	"Nov"	"Sun"	"Morning"	"Medium Delay"	421
+"1334"	"Nov"	"Sun"	"Morning"	"On Time"	3250
+"1335"	"Nov"	"Sun"	"Morning"	"Short Delay"	358
+"1336"	"Nov"	"Sun"	"Night"	"Cancelled"	8
+"1337"	"Nov"	"Sun"	"Night"	"Long Delay"	86
+"1338"	"Nov"	"Sun"	"Night"	"Medium Delay"	162
+"1339"	"Nov"	"Sun"	"Night"	"On Time"	453
+"1340"	"Nov"	"Sun"	"Night"	"Short Delay"	68
+"1341"	"Nov"	"Thurs"	"Evening"	"Cancelled"	56
+"1342"	"Nov"	"Thurs"	"Evening"	"Long Delay"	752
+"1343"	"Nov"	"Thurs"	"Evening"	"Medium Delay"	1677
+"1344"	"Nov"	"Thurs"	"Evening"	"On Time"	5518
+"1345"	"Nov"	"Thurs"	"Evening"	"Short Delay"	869
+"1346"	"Nov"	"Thurs"	"Mid-Day"	"Cancelled"	82
+"1347"	"Nov"	"Thurs"	"Mid-Day"	"Long Delay"	605
+"1348"	"Nov"	"Thurs"	"Mid-Day"	"Medium Delay"	1710
+"1349"	"Nov"	"Thurs"	"Mid-Day"	"On Time"	6911
+"1350"	"Nov"	"Thurs"	"Mid-Day"	"Short Delay"	1100
+"1351"	"Nov"	"Thurs"	"Morning"	"Cancelled"	39
+"1352"	"Nov"	"Thurs"	"Morning"	"Long Delay"	247
+"1353"	"Nov"	"Thurs"	"Morning"	"Medium Delay"	655
+"1354"	"Nov"	"Thurs"	"Morning"	"On Time"	3762
+"1355"	"Nov"	"Thurs"	"Morning"	"Short Delay"	536
+"1356"	"Nov"	"Thurs"	"Night"	"Cancelled"	8
+"1357"	"Nov"	"Thurs"	"Night"	"Long Delay"	65
+"1358"	"Nov"	"Thurs"	"Night"	"Medium Delay"	96
+"1359"	"Nov"	"Thurs"	"Night"	"On Time"	422
+"1360"	"Nov"	"Thurs"	"Night"	"Short Delay"	66
+"1361"	"Nov"	"Tues"	"Evening"	"Cancelled"	84
+"1362"	"Nov"	"Tues"	"Evening"	"Long Delay"	848
+"1363"	"Nov"	"Tues"	"Evening"	"Medium Delay"	1957
+"1364"	"Nov"	"Tues"	"Evening"	"On Time"	5620
+"1365"	"Nov"	"Tues"	"Evening"	"Short Delay"	988
+"1366"	"Nov"	"Tues"	"Mid-Day"	"Cancelled"	88
+"1367"	"Nov"	"Tues"	"Mid-Day"	"Long Delay"	749
+"1368"	"Nov"	"Tues"	"Mid-Day"	"Medium Delay"	1916
+"1369"	"Nov"	"Tues"	"Mid-Day"	"On Time"	6527
+"1370"	"Nov"	"Tues"	"Mid-Day"	"Short Delay"	1052
+"1371"	"Nov"	"Tues"	"Morning"	"Cancelled"	57
+"1372"	"Nov"	"Tues"	"Morning"	"Long Delay"	274
+"1373"	"Nov"	"Tues"	"Morning"	"Medium Delay"	654
+"1374"	"Nov"	"Tues"	"Morning"	"On Time"	3610
+"1375"	"Nov"	"Tues"	"Morning"	"Short Delay"	516
+"1376"	"Nov"	"Tues"	"Night"	"Cancelled"	7
+"1377"	"Nov"	"Tues"	"Night"	"Long Delay"	92
+"1378"	"Nov"	"Tues"	"Night"	"Medium Delay"	101
+"1379"	"Nov"	"Tues"	"Night"	"On Time"	496
+"1380"	"Nov"	"Tues"	"Night"	"Short Delay"	64
+"1381"	"Nov"	"Wed"	"Evening"	"Cancelled"	84
+"1382"	"Nov"	"Wed"	"Evening"	"Long Delay"	925
+"1383"	"Nov"	"Wed"	"Evening"	"Medium Delay"	1908
+"1384"	"Nov"	"Wed"	"Evening"	"On Time"	5602
+"1385"	"Nov"	"Wed"	"Evening"	"Short Delay"	984
+"1386"	"Nov"	"Wed"	"Mid-Day"	"Cancelled"	95
+"1387"	"Nov"	"Wed"	"Mid-Day"	"Long Delay"	670
+"1388"	"Nov"	"Wed"	"Mid-Day"	"Medium Delay"	1813
+"1389"	"Nov"	"Wed"	"Mid-Day"	"On Time"	6608
+"1390"	"Nov"	"Wed"	"Mid-Day"	"Short Delay"	1136
+"1391"	"Nov"	"Wed"	"Morning"	"Cancelled"	36
+"1392"	"Nov"	"Wed"	"Morning"	"Long Delay"	198
+"1393"	"Nov"	"Wed"	"Morning"	"Medium Delay"	659
+"1394"	"Nov"	"Wed"	"Morning"	"On Time"	3702
+"1395"	"Nov"	"Wed"	"Morning"	"Short Delay"	510
+"1396"	"Nov"	"Wed"	"Night"	"Cancelled"	8
+"1397"	"Nov"	"Wed"	"Night"	"Long Delay"	74
+"1398"	"Nov"	"Wed"	"Night"	"Medium Delay"	141
+"1399"	"Nov"	"Wed"	"Night"	"On Time"	475
+"1400"	"Nov"	"Wed"	"Night"	"Short Delay"	73
+"1401"	"Oct"	"Fri"	"Evening"	"Cancelled"	95
+"1402"	"Oct"	"Fri"	"Evening"	"Long Delay"	1012
+"1403"	"Oct"	"Fri"	"Evening"	"Medium Delay"	1964
+"1404"	"Oct"	"Fri"	"Evening"	"On Time"	5611
+"1405"	"Oct"	"Fri"	"Evening"	"Short Delay"	1069
+"1406"	"Oct"	"Fri"	"Mid-Day"	"Cancelled"	131
+"1407"	"Oct"	"Fri"	"Mid-Day"	"Long Delay"	837
+"1408"	"Oct"	"Fri"	"Mid-Day"	"Medium Delay"	1973
+"1409"	"Oct"	"Fri"	"Mid-Day"	"On Time"	6408
+"1410"	"Oct"	"Fri"	"Mid-Day"	"Short Delay"	1289
+"1411"	"Oct"	"Fri"	"Morning"	"Cancelled"	41
+"1412"	"Oct"	"Fri"	"Morning"	"Long Delay"	234
+"1413"	"Oct"	"Fri"	"Morning"	"Medium Delay"	701
+"1414"	"Oct"	"Fri"	"Morning"	"On Time"	3774
+"1415"	"Oct"	"Fri"	"Morning"	"Short Delay"	548
+"1416"	"Oct"	"Fri"	"Night"	"Cancelled"	15
+"1417"	"Oct"	"Fri"	"Night"	"Long Delay"	77
+"1418"	"Oct"	"Fri"	"Night"	"Medium Delay"	163
+"1419"	"Oct"	"Fri"	"Night"	"On Time"	484
+"1420"	"Oct"	"Fri"	"Night"	"Short Delay"	57
+"1421"	"Oct"	"Mon"	"Evening"	"Cancelled"	97
+"1422"	"Oct"	"Mon"	"Evening"	"Long Delay"	1000
+"1423"	"Oct"	"Mon"	"Evening"	"Medium Delay"	1898
+"1424"	"Oct"	"Mon"	"Evening"	"On Time"	6068
+"1425"	"Oct"	"Mon"	"Evening"	"Short Delay"	975
+"1426"	"Oct"	"Mon"	"Mid-Day"	"Cancelled"	159
+"1427"	"Oct"	"Mon"	"Mid-Day"	"Long Delay"	930
+"1428"	"Oct"	"Mon"	"Mid-Day"	"Medium Delay"	1874
+"1429"	"Oct"	"Mon"	"Mid-Day"	"On Time"	6816
+"1430"	"Oct"	"Mon"	"Mid-Day"	"Short Delay"	1133
+"1431"	"Oct"	"Mon"	"Morning"	"Cancelled"	57
+"1432"	"Oct"	"Mon"	"Morning"	"Long Delay"	264
+"1433"	"Oct"	"Mon"	"Morning"	"Medium Delay"	733
+"1434"	"Oct"	"Mon"	"Morning"	"On Time"	3817
+"1435"	"Oct"	"Mon"	"Morning"	"Short Delay"	586
+"1436"	"Oct"	"Mon"	"Night"	"Cancelled"	24
+"1437"	"Oct"	"Mon"	"Night"	"Long Delay"	67
+"1438"	"Oct"	"Mon"	"Night"	"Medium Delay"	142
+"1439"	"Oct"	"Mon"	"Night"	"On Time"	529
+"1440"	"Oct"	"Mon"	"Night"	"Short Delay"	53
+"1441"	"Oct"	"Sat"	"Evening"	"Cancelled"	42
+"1442"	"Oct"	"Sat"	"Evening"	"Long Delay"	394
+"1443"	"Oct"	"Sat"	"Evening"	"Medium Delay"	858
+"1444"	"Oct"	"Sat"	"Evening"	"On Time"	5567
+"1445"	"Oct"	"Sat"	"Evening"	"Short Delay"	529
+"1446"	"Oct"	"Sat"	"Mid-Day"	"Cancelled"	77
+"1447"	"Oct"	"Sat"	"Mid-Day"	"Long Delay"	575
+"1448"	"Oct"	"Sat"	"Mid-Day"	"Medium Delay"	1408
+"1449"	"Oct"	"Sat"	"Mid-Day"	"On Time"	6318
+"1450"	"Oct"	"Sat"	"Mid-Day"	"Short Delay"	922
+"1451"	"Oct"	"Sat"	"Morning"	"Cancelled"	52
+"1452"	"Oct"	"Sat"	"Morning"	"Long Delay"	162
+"1453"	"Oct"	"Sat"	"Morning"	"Medium Delay"	574
+"1454"	"Oct"	"Sat"	"Morning"	"On Time"	3244
+"1455"	"Oct"	"Sat"	"Morning"	"Short Delay"	385
+"1456"	"Oct"	"Sat"	"Night"	"Cancelled"	3
+"1457"	"Oct"	"Sat"	"Night"	"Long Delay"	16
+"1458"	"Oct"	"Sat"	"Night"	"Medium Delay"	38
+"1459"	"Oct"	"Sat"	"Night"	"On Time"	344
+"1460"	"Oct"	"Sat"	"Night"	"Short Delay"	24
+"1461"	"Oct"	"Sun"	"Evening"	"Cancelled"	72
+"1462"	"Oct"	"Sun"	"Evening"	"Long Delay"	749
+"1463"	"Oct"	"Sun"	"Evening"	"Medium Delay"	1773
+"1464"	"Oct"	"Sun"	"Evening"	"On Time"	6012
+"1465"	"Oct"	"Sun"	"Evening"	"Short Delay"	1051
+"1466"	"Oct"	"Sun"	"Mid-Day"	"Cancelled"	52
+"1467"	"Oct"	"Sun"	"Mid-Day"	"Long Delay"	500
+"1468"	"Oct"	"Sun"	"Mid-Day"	"Medium Delay"	1548
+"1469"	"Oct"	"Sun"	"Mid-Day"	"On Time"	6998
+"1470"	"Oct"	"Sun"	"Mid-Day"	"Short Delay"	1134
+"1471"	"Oct"	"Sun"	"Morning"	"Cancelled"	18
+"1472"	"Oct"	"Sun"	"Morning"	"Long Delay"	134
+"1473"	"Oct"	"Sun"	"Morning"	"Medium Delay"	416
+"1474"	"Oct"	"Sun"	"Morning"	"On Time"	3254
+"1475"	"Oct"	"Sun"	"Morning"	"Short Delay"	368
+"1476"	"Oct"	"Sun"	"Night"	"Cancelled"	9
+"1477"	"Oct"	"Sun"	"Night"	"Long Delay"	76
+"1478"	"Oct"	"Sun"	"Night"	"Medium Delay"	140
+"1479"	"Oct"	"Sun"	"Night"	"On Time"	506
+"1480"	"Oct"	"Sun"	"Night"	"Short Delay"	76
+"1481"	"Oct"	"Thurs"	"Evening"	"Cancelled"	70
+"1482"	"Oct"	"Thurs"	"Evening"	"Long Delay"	951
+"1483"	"Oct"	"Thurs"	"Evening"	"Medium Delay"	2198
+"1484"	"Oct"	"Thurs"	"Evening"	"On Time"	5472
+"1485"	"Oct"	"Thurs"	"Evening"	"Short Delay"	1092
+"1486"	"Oct"	"Thurs"	"Mid-Day"	"Cancelled"	105
+"1487"	"Oct"	"Thurs"	"Mid-Day"	"Long Delay"	788
+"1488"	"Oct"	"Thurs"	"Mid-Day"	"Medium Delay"	1967
+"1489"	"Oct"	"Thurs"	"Mid-Day"	"On Time"	6434
+"1490"	"Oct"	"Thurs"	"Mid-Day"	"Short Delay"	1362
+"1491"	"Oct"	"Thurs"	"Morning"	"Cancelled"	54
+"1492"	"Oct"	"Thurs"	"Morning"	"Long Delay"	245
+"1493"	"Oct"	"Thurs"	"Morning"	"Medium Delay"	662
+"1494"	"Oct"	"Thurs"	"Morning"	"On Time"	3771
+"1495"	"Oct"	"Thurs"	"Morning"	"Short Delay"	556
+"1496"	"Oct"	"Thurs"	"Night"	"Cancelled"	7
+"1497"	"Oct"	"Thurs"	"Night"	"Long Delay"	76
+"1498"	"Oct"	"Thurs"	"Night"	"Medium Delay"	139
+"1499"	"Oct"	"Thurs"	"Night"	"On Time"	511
+"1500"	"Oct"	"Thurs"	"Night"	"Short Delay"	70
+"1501"	"Oct"	"Tues"	"Evening"	"Cancelled"	171
+"1502"	"Oct"	"Tues"	"Evening"	"Long Delay"	1005
+"1503"	"Oct"	"Tues"	"Evening"	"Medium Delay"	1766
+"1504"	"Oct"	"Tues"	"Evening"	"On Time"	6180
+"1505"	"Oct"	"Tues"	"Evening"	"Short Delay"	921
+"1506"	"Oct"	"Tues"	"Mid-Day"	"Cancelled"	193
+"1507"	"Oct"	"Tues"	"Mid-Day"	"Long Delay"	853
+"1508"	"Oct"	"Tues"	"Mid-Day"	"Medium Delay"	1635
+"1509"	"Oct"	"Tues"	"Mid-Day"	"On Time"	7158
+"1510"	"Oct"	"Tues"	"Mid-Day"	"Short Delay"	1037
+"1511"	"Oct"	"Tues"	"Morning"	"Cancelled"	61
+"1512"	"Oct"	"Tues"	"Morning"	"Long Delay"	258
+"1513"	"Oct"	"Tues"	"Morning"	"Medium Delay"	658
+"1514"	"Oct"	"Tues"	"Morning"	"On Time"	3955
+"1515"	"Oct"	"Tues"	"Morning"	"Short Delay"	469
+"1516"	"Oct"	"Tues"	"Night"	"Cancelled"	13
+"1517"	"Oct"	"Tues"	"Night"	"Long Delay"	59
+"1518"	"Oct"	"Tues"	"Night"	"Medium Delay"	109
+"1519"	"Oct"	"Tues"	"Night"	"On Time"	546
+"1520"	"Oct"	"Tues"	"Night"	"Short Delay"	66
+"1521"	"Oct"	"Wed"	"Evening"	"Cancelled"	94
+"1522"	"Oct"	"Wed"	"Evening"	"Long Delay"	930
+"1523"	"Oct"	"Wed"	"Evening"	"Medium Delay"	2012
+"1524"	"Oct"	"Wed"	"Evening"	"On Time"	6134
+"1525"	"Oct"	"Wed"	"Evening"	"Short Delay"	1119
+"1526"	"Oct"	"Wed"	"Mid-Day"	"Cancelled"	152
+"1527"	"Oct"	"Wed"	"Mid-Day"	"Long Delay"	701
+"1528"	"Oct"	"Wed"	"Mid-Day"	"Medium Delay"	1906
+"1529"	"Oct"	"Wed"	"Mid-Day"	"On Time"	7253
+"1530"	"Oct"	"Wed"	"Mid-Day"	"Short Delay"	1214
+"1531"	"Oct"	"Wed"	"Morning"	"Cancelled"	59
+"1532"	"Oct"	"Wed"	"Morning"	"Long Delay"	232
+"1533"	"Oct"	"Wed"	"Morning"	"Medium Delay"	644
+"1534"	"Oct"	"Wed"	"Morning"	"On Time"	4097
+"1535"	"Oct"	"Wed"	"Morning"	"Short Delay"	532
+"1536"	"Oct"	"Wed"	"Night"	"Cancelled"	7
+"1537"	"Oct"	"Wed"	"Night"	"Long Delay"	60
+"1538"	"Oct"	"Wed"	"Night"	"Medium Delay"	122
+"1539"	"Oct"	"Wed"	"Night"	"On Time"	553
+"1540"	"Oct"	"Wed"	"Night"	"Short Delay"	75
+"1541"	"Sept"	"Fri"	"Evening"	"Cancelled"	311
+"1542"	"Sept"	"Fri"	"Evening"	"Long Delay"	1201
+"1543"	"Sept"	"Fri"	"Evening"	"Medium Delay"	1557
+"1544"	"Sept"	"Fri"	"Evening"	"On Time"	5706
+"1545"	"Sept"	"Fri"	"Evening"	"Short Delay"	883
+"1546"	"Sept"	"Fri"	"Mid-Day"	"Cancelled"	382
+"1547"	"Sept"	"Fri"	"Mid-Day"	"Long Delay"	922
+"1548"	"Sept"	"Fri"	"Mid-Day"	"Medium Delay"	1661
+"1549"	"Sept"	"Fri"	"Mid-Day"	"On Time"	6488
+"1550"	"Sept"	"Fri"	"Mid-Day"	"Short Delay"	1052
+"1551"	"Sept"	"Fri"	"Morning"	"Cancelled"	212
+"1552"	"Sept"	"Fri"	"Morning"	"Long Delay"	325
+"1553"	"Sept"	"Fri"	"Morning"	"Medium Delay"	691
+"1554"	"Sept"	"Fri"	"Morning"	"On Time"	3540
+"1555"	"Sept"	"Fri"	"Morning"	"Short Delay"	453
+"1556"	"Sept"	"Fri"	"Night"	"Cancelled"	53
+"1557"	"Sept"	"Fri"	"Night"	"Long Delay"	105
+"1558"	"Sept"	"Fri"	"Night"	"Medium Delay"	159
+"1559"	"Sept"	"Fri"	"Night"	"On Time"	561
+"1560"	"Sept"	"Fri"	"Night"	"Short Delay"	58
+"1561"	"Sept"	"Mon"	"Evening"	"Cancelled"	148
+"1562"	"Sept"	"Mon"	"Evening"	"Long Delay"	783
+"1563"	"Sept"	"Mon"	"Evening"	"Medium Delay"	1426
+"1564"	"Sept"	"Mon"	"Evening"	"On Time"	6667
+"1565"	"Sept"	"Mon"	"Evening"	"Short Delay"	945
+"1566"	"Sept"	"Mon"	"Mid-Day"	"Cancelled"	169
+"1567"	"Sept"	"Mon"	"Mid-Day"	"Long Delay"	671
+"1568"	"Sept"	"Mon"	"Mid-Day"	"Medium Delay"	1601
+"1569"	"Sept"	"Mon"	"Mid-Day"	"On Time"	7351
+"1570"	"Sept"	"Mon"	"Mid-Day"	"Short Delay"	1014
+"1571"	"Sept"	"Mon"	"Morning"	"Cancelled"	72
+"1572"	"Sept"	"Mon"	"Morning"	"Long Delay"	231
+"1573"	"Sept"	"Mon"	"Morning"	"Medium Delay"	518
+"1574"	"Sept"	"Mon"	"Morning"	"On Time"	3892
+"1575"	"Sept"	"Mon"	"Morning"	"Short Delay"	469
+"1576"	"Sept"	"Mon"	"Night"	"Cancelled"	28
+"1577"	"Sept"	"Mon"	"Night"	"Long Delay"	78
+"1578"	"Sept"	"Mon"	"Night"	"Medium Delay"	120
+"1579"	"Sept"	"Mon"	"Night"	"On Time"	669
+"1580"	"Sept"	"Mon"	"Night"	"Short Delay"	69
+"1581"	"Sept"	"Sat"	"Evening"	"Cancelled"	139
+"1582"	"Sept"	"Sat"	"Evening"	"Long Delay"	491
+"1583"	"Sept"	"Sat"	"Evening"	"Medium Delay"	871
+"1584"	"Sept"	"Sat"	"Evening"	"On Time"	5689
+"1585"	"Sept"	"Sat"	"Evening"	"Short Delay"	525
+"1586"	"Sept"	"Sat"	"Mid-Day"	"Cancelled"	211
+"1587"	"Sept"	"Sat"	"Mid-Day"	"Long Delay"	610
+"1588"	"Sept"	"Sat"	"Mid-Day"	"Medium Delay"	1401
+"1589"	"Sept"	"Sat"	"Mid-Day"	"On Time"	6569
+"1590"	"Sept"	"Sat"	"Mid-Day"	"Short Delay"	910
+"1591"	"Sept"	"Sat"	"Morning"	"Cancelled"	118
+"1592"	"Sept"	"Sat"	"Morning"	"Long Delay"	208
+"1593"	"Sept"	"Sat"	"Morning"	"Medium Delay"	424
+"1594"	"Sept"	"Sat"	"Morning"	"On Time"	3468
+"1595"	"Sept"	"Sat"	"Morning"	"Short Delay"	398
+"1596"	"Sept"	"Sat"	"Night"	"Cancelled"	14
+"1597"	"Sept"	"Sat"	"Night"	"Long Delay"	28
+"1598"	"Sept"	"Sat"	"Night"	"Medium Delay"	49
+"1599"	"Sept"	"Sat"	"Night"	"On Time"	394
+"1600"	"Sept"	"Sat"	"Night"	"Short Delay"	22
+"1601"	"Sept"	"Sun"	"Evening"	"Cancelled"	170
+"1602"	"Sept"	"Sun"	"Evening"	"Long Delay"	1024
+"1603"	"Sept"	"Sun"	"Evening"	"Medium Delay"	1579
+"1604"	"Sept"	"Sun"	"Evening"	"On Time"	5994
+"1605"	"Sept"	"Sun"	"Evening"	"Short Delay"	928
+"1606"	"Sept"	"Sun"	"Mid-Day"	"Cancelled"	195
+"1607"	"Sept"	"Sun"	"Mid-Day"	"Long Delay"	647
+"1608"	"Sept"	"Sun"	"Mid-Day"	"Medium Delay"	1384
+"1609"	"Sept"	"Sun"	"Mid-Day"	"On Time"	7133
+"1610"	"Sept"	"Sun"	"Mid-Day"	"Short Delay"	963
+"1611"	"Sept"	"Sun"	"Morning"	"Cancelled"	83
+"1612"	"Sept"	"Sun"	"Morning"	"Long Delay"	160
+"1613"	"Sept"	"Sun"	"Morning"	"Medium Delay"	365
+"1614"	"Sept"	"Sun"	"Morning"	"On Time"	3242
+"1615"	"Sept"	"Sun"	"Morning"	"Short Delay"	314
+"1616"	"Sept"	"Sun"	"Night"	"Cancelled"	24
+"1617"	"Sept"	"Sun"	"Night"	"Long Delay"	104
+"1618"	"Sept"	"Sun"	"Night"	"Medium Delay"	145
+"1619"	"Sept"	"Sun"	"Night"	"On Time"	585
+"1620"	"Sept"	"Sun"	"Night"	"Short Delay"	70
+"1621"	"Sept"	"Thurs"	"Evening"	"Cancelled"	440
+"1622"	"Sept"	"Thurs"	"Evening"	"Long Delay"	1270
+"1623"	"Sept"	"Thurs"	"Evening"	"Medium Delay"	1831
+"1624"	"Sept"	"Thurs"	"Evening"	"On Time"	5179
+"1625"	"Sept"	"Thurs"	"Evening"	"Short Delay"	934
+"1626"	"Sept"	"Thurs"	"Mid-Day"	"Cancelled"	523
+"1627"	"Sept"	"Thurs"	"Mid-Day"	"Long Delay"	808
+"1628"	"Sept"	"Thurs"	"Mid-Day"	"Medium Delay"	1667
+"1629"	"Sept"	"Thurs"	"Mid-Day"	"On Time"	6445
+"1630"	"Sept"	"Thurs"	"Mid-Day"	"Short Delay"	1087
+"1631"	"Sept"	"Thurs"	"Morning"	"Cancelled"	271
+"1632"	"Sept"	"Thurs"	"Morning"	"Long Delay"	237
+"1633"	"Sept"	"Thurs"	"Morning"	"Medium Delay"	501
+"1634"	"Sept"	"Thurs"	"Morning"	"On Time"	3798
+"1635"	"Sept"	"Thurs"	"Morning"	"Short Delay"	400
+"1636"	"Sept"	"Thurs"	"Night"	"Cancelled"	49
+"1637"	"Sept"	"Thurs"	"Night"	"Long Delay"	130
+"1638"	"Sept"	"Thurs"	"Night"	"Medium Delay"	155
+"1639"	"Sept"	"Thurs"	"Night"	"On Time"	524
+"1640"	"Sept"	"Thurs"	"Night"	"Short Delay"	73
+"1641"	"Sept"	"Tues"	"Evening"	"Cancelled"	454
+"1642"	"Sept"	"Tues"	"Evening"	"Long Delay"	995
+"1643"	"Sept"	"Tues"	"Evening"	"Medium Delay"	1535
+"1644"	"Sept"	"Tues"	"Evening"	"On Time"	5821
+"1645"	"Sept"	"Tues"	"Evening"	"Short Delay"	779
+"1646"	"Sept"	"Tues"	"Mid-Day"	"Cancelled"	501
+"1647"	"Sept"	"Tues"	"Mid-Day"	"Long Delay"	655
+"1648"	"Sept"	"Tues"	"Mid-Day"	"Medium Delay"	1383
+"1649"	"Sept"	"Tues"	"Mid-Day"	"On Time"	6955
+"1650"	"Sept"	"Tues"	"Mid-Day"	"Short Delay"	941
+"1651"	"Sept"	"Tues"	"Morning"	"Cancelled"	155
+"1652"	"Sept"	"Tues"	"Morning"	"Long Delay"	208
+"1653"	"Sept"	"Tues"	"Morning"	"Medium Delay"	494
+"1654"	"Sept"	"Tues"	"Morning"	"On Time"	3864
+"1655"	"Sept"	"Tues"	"Morning"	"Short Delay"	428
+"1656"	"Sept"	"Tues"	"Night"	"Cancelled"	64
+"1657"	"Sept"	"Tues"	"Night"	"Long Delay"	67
+"1658"	"Sept"	"Tues"	"Night"	"Medium Delay"	105
+"1659"	"Sept"	"Tues"	"Night"	"On Time"	605
+"1660"	"Sept"	"Tues"	"Night"	"Short Delay"	57
+"1661"	"Sept"	"Wed"	"Evening"	"Cancelled"	418
+"1662"	"Sept"	"Wed"	"Evening"	"Long Delay"	919
+"1663"	"Sept"	"Wed"	"Evening"	"Medium Delay"	1565
+"1664"	"Sept"	"Wed"	"Evening"	"On Time"	5621
+"1665"	"Sept"	"Wed"	"Evening"	"Short Delay"	811
+"1666"	"Sept"	"Wed"	"Mid-Day"	"Cancelled"	459
+"1667"	"Sept"	"Wed"	"Mid-Day"	"Long Delay"	764
+"1668"	"Sept"	"Wed"	"Mid-Day"	"Medium Delay"	1569
+"1669"	"Sept"	"Wed"	"Mid-Day"	"On Time"	6468
+"1670"	"Sept"	"Wed"	"Mid-Day"	"Short Delay"	906
+"1671"	"Sept"	"Wed"	"Morning"	"Cancelled"	240
+"1672"	"Sept"	"Wed"	"Morning"	"Long Delay"	216
+"1673"	"Sept"	"Wed"	"Morning"	"Medium Delay"	552
+"1674"	"Sept"	"Wed"	"Morning"	"On Time"	3617
+"1675"	"Sept"	"Wed"	"Morning"	"Short Delay"	381
+"1676"	"Sept"	"Wed"	"Night"	"Cancelled"	70
+"1677"	"Sept"	"Wed"	"Night"	"Long Delay"	82
+"1678"	"Sept"	"Wed"	"Night"	"Medium Delay"	114
+"1679"	"Sept"	"Wed"	"Night"	"On Time"	563
+"1680"	"Sept"	"Wed"	"Night"	"Short Delay"	48

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src='http://d3js.org/d3.v3.min.js'></script>
+    <script src='http://dimplejs.org/dist/dimple.v2.0.0.min.js'></script>
+    <link rel="stylesheet" href="main.css">
+    <script type='text/javascript'>
+    function draw(data) {
+      
+		/*
+		D3.js setup code
+		*/
+		'use strict';
+		var WIDTH = 800,
+		HEIGHT = 460;
+
+		var svg = d3.select('body')
+			.append('svg')
+			.attr('width', WIDTH)
+			.attr('height', HEIGHT)
+			.append('g')
+			.attr('class','chart');
+
+		/*
+		Dimple.js Chart construction code
+		*/
+
+		//////////////////////////////////////////////////////////////////////////////////
+		// General parameters
+		//////////////////////////////////////////////////////////////////////////////////
+		// Interactive bars are violet
+		var DEFAULT_COLOR = new dimple.color('#9966CC');
+
+		svg.selectAll('title_text')
+			.data(['Filters'])
+			.enter()
+			.append('text')
+			.attr('x', 744)
+			.attr('y', 25)
+			.style('font-family', 'sans-serif')
+			.style('font-weight', 'bold')
+			.text(function (d) { return d; });       
+
+		svg.selectAll('title_text')
+			.data(['*Short delay: < 5 min, Medium delay: < 30 min, Long delay: > 30 min'])
+			.enter()
+			.append('text')
+			.attr('x', 0)
+			.attr('y', 440)
+			.style('font-family', 'sans-serif')
+			.style('font-size', '9px')
+			.text(function (d) { return d; });                  
+
+
+		svg.selectAll('title_text')
+			.data(['**Morning: 4 AM - 10 AM, Mid-Day: 10 AM - 4 PM, Evening: 4 PM - 10 PM, Night: 10 PM - 4 AM'])
+			.enter()
+			.append('text')
+			.attr('x', 0)
+			.attr('y', 455)
+			.style('font-family', 'sans-serif')
+			.style('font-size', '9px')
+			.text(function (d) { return d; });                  
+		//////////////////////////////////////////////////////////////////////////////////
+		// Make the month chart on the top left
+		//////////////////////////////////////////////////////////////////////////////////
+		var monthsChart = new dimple.chart(svg, data);
+		monthsChart.setBounds(165, 225, 147.5, 135);
+
+		var x1 = monthsChart.addCategoryAxis('x', ['Month']); 
+		x1.addOrderRule(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 
+						 'Oct', 'Nov', 'Dec']);          
+		x1.title = '';
+
+		var y1 = monthsChart.addPctAxis('y', 'NumberOfFlights');
+		y1.showGridlines = false;
+		y1.ticks = 4;
+		y1.title = 'Average for Given Month';
+
+		var t1 = monthsChart.addSeries('Status', dimple.plot.bar);                    		  
+		t1.addOrderRule(['On Time', 'Short Delay', 'Medium Delay', 'Long Delay', 
+						 'Cancelled']);          	
+
+		// Draw the chart and remove y-axis lines
+		monthsChart.draw();
+		x1.shapes.selectAll('line,path').remove();
+
+		// Remove label
+		monthsChart.legends = [];
+		
+		//////////////////////////////////////////////////////////////////////////////////
+		// Make the year chart on the bottom left
+		//////////////////////////////////////////////////////////////////////////////////
+		var yearsChart = new dimple.chart(svg, data);
+		yearsChart.setBounds(165, 33, 97.5, 135);
+
+		var x2 = yearsChart.addCategoryAxis('x', ['Year']); 
+		x2.addOrderRule([2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008]);
+		x2.title = '';
+
+		var y2 = yearsChart.addPctAxis('y', 'NumberOfFlights');
+		y2.showGridlines = false;
+		y2.ticks = 4;
+		y2.title = 'Average for Given Year';
+
+		var t2 = yearsChart.addSeries('Status', dimple.plot.bar);                    		  
+		t2.addOrderRule(['On Time', 'Short Delay', 'Medium Delay', 'Long Delay', 
+						 'Cancelled']);          	
+
+		// Draw the chart and remove y-axis lines
+		yearsChart.draw();
+		x2.shapes.selectAll('line,path').remove();
+
+		// Remove label
+		yearsChart.legends = [];
+
+		//////////////////////////////////////////////////////////////////////////////////
+ 	    // Make the right chart for day of week and time of day
+		//////////////////////////////////////////////////////////////////////////////////
+		var daysChart = new dimple.chart(svg, data);
+		daysChart.setBounds(390, 33, 325, 332.5);          
+
+		var x3 = daysChart.addCategoryAxis('x', ['DayOfWeek', 'TimeOfDay']); 
+		x3.addOrderRule(['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat']);
+		x3.addGroupOrderRule(['Morning', 'Mid-Day', 'Evening', 'Night']);
+		x3.title = 'Day of Week / Time of Day (Morning, Mid-Day, Evening, Night)';
+		x3.showGridlines = false;
+
+		var y3 = daysChart.addPctAxis('y', 'NumberOfFlights');
+		y3.title = 'Percent of Flights for Given Day of Week and Time of Day';   
+		y3.ticks = 4;       
+		y3.showGridlines = false;
+		
+		var t3 = daysChart.addSeries('Status', dimple.plot.bar);                    		  
+		t3.addOrderRule(['On Time', 'Short Delay', 'Medium Delay', 'Long Delay', 
+						 'Cancelled']);          	
+		daysChart.addLegend(0, 5, 600, 75, 'left');
+
+		// Draw the chart
+		daysChart.draw();
+
+		// Remove label
+		daysChart.legends = [];
+
+		//////////////////////////////////////////////////////////////////////////////////
+		// Make the total chart
+		//////////////////////////////////////////////////////////////////////////////////
+		var totalChart = new dimple.chart(svg, data);
+		totalChart.setBounds(55, 33, 13, 135);
+
+		var x4 = totalChart.addCategoryAxis('x', 'dummy'); 
+		x4.title = '';
+		x4.hidden = true;
+
+		var y4 = totalChart.addPctAxis('y', 'NumberOfFlights');
+		y4.title = 'Flights in Current Dataset';
+		y4.showGridlines = false;
+		y4.ticks = 3;       
+
+		var t4 = totalChart.addSeries('Status', dimple.plot.bar);                    		  
+		t4.addOrderRule(['On Time', 'Short Delay', 'Medium Delay', 'Long Delay', 
+		                 'Cancelled']);          	
+		// Draw the chart
+		totalChart.draw();
+
+		// Remove label
+		totalChart.legends = [];
+		
+		//////////////////////////////////////////////////////////////////////////////////
+		// Make Month Indicators/Filters
+		//////////////////////////////////////////////////////////////////////////////////
+		var indicator5 = new dimple.chart(svg, data);     
+		var  monthFilter = dimple.getUniqueValues(data, 'Month');     
+
+		// Place the indicator bar chart to the right
+		indicator5.setBounds(730, 35, 70, 207.5);
+
+		// Add month along the y axis
+		var y5 = indicator5.addCategoryAxis('y', 'Month');
+		y5.addOrderRule(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 
+						 'Oct', 'Nov', 'Dec'], 'false');          
+
+		// Use number of flights for bar size and hide the axis
+		var x5 = indicator5.addPctAxis('x', 'Month');
+		x5.hidden = true;
+
+		// Add the bars to the indicator, remove tooltip, and add event handlers
+		var s5 = indicator5.addSeries(null, dimple.plot.bar);
+		s5.getTooltipText = function (e) { };
+		s5.addEventHandler('click', onClick1);	      
+
+		// Draw the side chart
+		indicator5.draw();          
+
+        // Remove the title and lines from the y axis
+		y5.titleShape.remove();
+		y5.shapes.selectAll('line,path').remove();
+
+		// Move the y axis text inside the plot area
+		y5.shapes.selectAll('text')
+			.style('text-anchor', 'middle')
+			.style('font-size', '10px')
+			.style('font-weight', 'bold')
+			.attr('transform', 'translate(43, 0)');
+  
+		// Manually set the bar colors and opacity
+		s5.shapes
+			.style('fill', DEFAULT_COLOR.fill) 
+			.style('stroke', DEFAULT_COLOR.stroke) 
+			.style('opacity', 0.5);                  
+
+		//////////////////////////////////////////////////////////////////////////////////
+        // Make Year Indicators/Filters
+		//////////////////////////////////////////////////////////////////////////////////
+		var indicator6 = new dimple.chart(svg, data);     
+		var yearFilter = dimple.getUniqueValues(data, 'Year');     
+
+		// Place the indicator bar chart to the bottom right
+		indicator6.setBounds(730, 242.5, 70, 137.5);
+
+		// Add year along the y axis
+		var y6 = indicator6.addCategoryAxis('y', 'Year');
+		y6.addOrderRule([2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008], 'false');
+
+		// Use number of flights for bar size and hide the axis
+		var x6 = indicator6.addPctAxis('x', 'NumberOfFlights');
+		x6.hidden = true;
+
+		// Add the bars to the indicator, remove tooltip, and add event handlers
+		var s6 = indicator6.addSeries(null, dimple.plot.bar);
+		s6.getTooltipText = function (e) { };
+		s6.addEventHandler('click', onClick2);	      
+
+		// Draw the side chart
+		indicator6.draw();          
+
+        // Remove the title and lines from the y axis
+		y6.titleShape.remove();
+		y6.shapes.selectAll('line,path').remove();
+
+		// Move the y axis text inside the plot area
+		y6.shapes.selectAll('text')
+			.style('text-anchor', 'middle')
+			.style('font-size', '11px')
+			.style('font-weight', 'bold')
+			.attr('transform', 'translate(43, 0)');
+
+		s6.shapes
+			.style('fill', DEFAULT_COLOR.fill) 
+			.style('stroke', DEFAULT_COLOR.stroke) 
+			.style('opacity', 0.5);                  
+
+		//////////////////////////////////////////////////////////////////////////////////
+		// Helper Functions for chart updates and animations
+		//////////////////////////////////////////////////////////////////////////////////
+
+		// Update charts
+		function updateCharts1(data1, data2){
+			// Update data for each chart
+			// Years chart only gets mont filter
+			yearsChart.data = data1;
+			daysChart.data = data2;
+			totalChart.data = data2;
+
+
+			// Redraw each chart
+			yearsChart.draw();
+			daysChart.draw();
+			totalChart.draw();       
+			// Remove vertical lines on months and years charts
+			x2.shapes.selectAll('line,path').remove();
+		}
+
+		// Update charts except years
+		function updateCharts2(data1, data2){
+			// Update data for each chart
+			// Months chart only gets year filter
+			monthsChart.data = data1;
+			daysChart.data = data2;
+			totalChart.data = data2;
+
+			// Redraw each chart
+			monthsChart.draw();
+			daysChart.draw();
+			totalChart.draw();       
+			// Remove vertical lines on months and years charts
+			x1.shapes.selectAll('line,path').remove();
+		}
+		
+		function onClick1(e) {
+			var hide = false;
+			var newFilters = [];
+			var selobj = e.selectedShape[0];              
+			// If the filters contain the clicked shape hide it
+			monthFilter.forEach(function (f) {
+				if (f === e.yValue && selobj[0].style.opacity != 0.15) {
+					hide = true;
+				} else {
+					newFilters.push(f);
+				}
+			});
+			// Hide/show the bar
+			if (hide) {
+				d3.select(selobj[0]).style('opacity', 0.15);
+			} else {
+				newFilters.push(e.yValue);
+				d3.select(selobj[0]).style('opacity', 0.5);
+			}                       
+			monthFilter = newFilters;
+			// Filter the data
+			var newData1 = dimple.filterData(data, 'Month', monthFilter);
+			var newData2 = dimple.filterData(newData1, 'Year', yearFilter);
+			updateCharts1(newData1, newData2);
+		}                            
+		function onClick2(e) {
+			var hide = false;
+			var newFilters = [];
+			var selobj = e.selectedShape[0];              
+			// If the filters contain the clicked shape hide it
+			yearFilter.forEach(function (f) {
+				if (f === e.yValue && selobj[0].style.opacity != 0.15) {
+					hide = true;
+				} else {
+					newFilters.push(f);
+				}
+			});
+			// Hide/show the bar
+			if (hide) {
+				d3.select(selobj[0]).style('opacity', 0.15);
+			} else {
+				newFilters.push(e.yValue);
+				d3.select(selobj[0]).style('opacity', 0.5);
+			}                       
+			yearFilter = newFilters;
+			// Filter the data
+			var newData1 = dimple.filterData(data, 'Year', yearFilter);
+			var newData2 = dimple.filterData(newData1, 'Month', monthFilter);			
+			updateCharts2(newData1, newData2);
+		}		
+	};
+    </script>
+  </head>
+<body>
+	<h1>Explore On Your Own</h1>
+	<h5> For further exploration, data can be filtered out by years and months by selecting
+		violet bars. Transparent bars filter out the years or months. Since the data set is
+		large, filtering can be a little sluggish. Please be patient. Suggestion: If you
+		filter out all years, but 2001, can you see the huge effect of 9/11 flight 
+		cancellations? What else can you find? </h5>
+	<h5> Return to the main story <a href="index.html"> here</a>.</h5>
+
+  <script type='text/javascript'>
+  /*
+    Use D3 (not dimple.js) to load the TSV file
+    and pass the contents of it to the draw function
+    */
+  d3.tsv('MSP_dimple3.tsv', draw);
+  </script>
+</body>
+</html>
